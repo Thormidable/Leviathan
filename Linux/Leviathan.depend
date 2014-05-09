@@ -1,0 +1,1000 @@
+# depslib dependency file v1.0
+1338640194 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcBullet.cpp
+	"../main.h"
+
+1338200393 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/main.h
+	"../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcPlannedSettings.h"
+	"./Process/WTcMapDisplay.h"
+	"./Process/Settings/WTcDamageSettings.h"
+	"./Process/Combat/WTcDamage.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcFighter.h"
+	"./Process/WTcMessageFeed.h"
+	"./Process/Settings/WTcMissileSettings.h"
+	"./Process/Settings/WTcLeviathanGeneralSettings.h"
+	"./Process/Settings/WTcLeviathanHullSettings.h"
+	"./Process/Settings/WTcLeviathanShieldSettings.h"
+	"./Process/Settings/WTcLeviathanTurretSettings.h"
+	"./Process/Settings/WTcLeviathanProjectileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanBeamTurretSettings.h"
+	"./Process/Settings/WTcLeviathanMissileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanTractorTurretSettings.h"
+	"./Process/Settings/WTcLeviathanSensorSettings.h"
+	"./Process/Settings/WTcLeviathanThrusterSettings.h"
+	"./Process/Settings/WTcLeviathanReactorSettings.h"
+	"./Process/Settings/WTcLeviathanCoolingVentsSettings.h"
+	"./Process/Settings/WTcLeviathanHullMultiHullSettings.h"
+	"./Process/Settings/WTcLeviathanRepairSettings.h"
+	"./Process/Settings/WTcLeviathanSettings.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/Combat/WTcCombatScreen.h"
+	"./Process/Combat/WTcCombatStatusBox.h"
+	"./Process/Combat/WTcMissile.h"
+	"./Process/Combat/WTcLeviathanGeneral.h"
+	"./Process/Combat/WTcLeviathanHull.h"
+	"./Process/Combat/WTcLeviathanShield.h"
+	"./Process/Combat/WTcLeviathanTurret.h"
+	"./Process/Combat/WTcLeviathanProjectileTurret.h"
+	"./Process/Combat/WTcLeviathanBeamTurret.h"
+	"./Process/Combat/WTcLeviathanMissileTurret.h"
+	"./Process/Combat/WTcLeviathanTractorTurret.h"
+	"./Process/Combat/WTcLeviathanSensor.h"
+	"./Process/Combat/WTcLeviathanThruster.h"
+	"./Process/Combat/WTcLeviathanReactor.h"
+	"./Process/Combat/WTcLeviathanCoolingVents.h"
+	"./Process/Combat/WTcLeviathanHullMultiHull.h"
+	"./Process/Combat/WTcLeviathanRepair.h"
+	"./Process/Combat/WTcLeviathan.h"
+	"./Process/Leviathans/WTcTrainingLeviathan.h"
+	"./Process/Leviathans/WTcGunLeviathanMk1.h"
+	"./Process/Leviathans/WTcBeamLeviathanMk1.h"
+	"./Process/Leviathans/WTcMissileLeviathanMk1.h"
+	"./Process/SelectionScreen/WTcLeviathanSelectionMenu.h"
+	"./Process/Planning/WTcPlanningPlayerGun.h"
+	"./Process/Planning/WTcPlanningMissileRack.h"
+	"./Process/Planning/WTcPlanningComponentBox.h"
+	"./Process/Planning/WTcPlanningComponentTextField.h"
+	"./Process/Planning/WTcPlanningComponent.h"
+	"./Process/Planning/WTcPlanningLeviathan.h"
+	"./Process/Planning/WTcPlanningScreen.h"
+	"./Process/Planning/WTcPlanningHull.h"
+	"./Process/Planning/WTcPlanningReactor.h"
+	"./Process/Planning/WTcPlanningThruster.h"
+	"./Process/Planning/WTcPlanningSensor.h"
+	"./Process/Planning/WTcPlanningShield.h"
+	"./Process/Planning/WTcPlanningVent.h"
+	"./Process/Planning/WTcPlanningArcs.h"
+	"./Process/Planning/WTcPlanningTurret.h"
+	"./Process/Planning/WTcPlanningProjectileTurret.h"
+	"./Process/Planning/WTcPlanningBeamTurret.h"
+	"./Process/Planning/WTcPlanningTractorTurret.h"
+	"./Process/Planning/WTcPlanningMissileTurret.h"
+	"./Process/Planning/WTcPlanningRepair.h"
+	"./Process/WTcAsteroidObject.h"
+	"./Process/WTcExitScreen.h"
+
+1338974047 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/WTBamboo.h
+	<stdint.h>
+	<unistd.h>
+	"./WTOsBits.h"
+	"./Global/WTKeyStateDefinitions.h"
+	<windows.h>
+	<glew.h>
+	<glext.h>
+	<wglext.h>
+	<GL/gl.h>
+	<al.h>
+	<alc.h>
+	"./Windows/WTWindowsKeyCodes.h"
+	<GL/glxew.h>
+	<sys/time.h>
+	<X11/keysym.h>
+	<X11/Xlib.h>
+	<X11/X.h>
+	<X11/cursorfont.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"./Windows/WTXWindowsKeyCodes.h"
+	"./Global/WTDefinitions.h"
+	"./Global/WTSettings.h"
+	"./Global/WTSetDefinitions.h"
+	"./Global/IMFDefinitions.h"
+	"./Global/WTcFlags.h"
+	<typeinfo>
+	<cmath>
+	<cstring>
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"./Global/GlobalPointers.h"
+	"./Global/log.h"
+	"./Global/CException.h"
+	"./PTL/WTcSingleton.h"
+	"./PTL/WTRadix.h"
+	"./Windows/WTcSync.h"
+	"./Windows/WTcWindow.h"
+	"./PTL/WTLLTemplate.h"
+	"./PTL/WTLimitedList.h"
+	"./PTL/WTcPushPopStack.h"
+	"./Maths/WTMath.h"
+	"./Maths/WTc2DVt.h"
+	"./Maths/WTc3DVt.h"
+	"./Maths/WTc4DVt.h"
+	"./Maths/WTcColors.h"
+	"./Maths/WTcMatrix4.h"
+	"./Maths/WTcDoubleMatrix4.h"
+	"./Maths/WTcMomentum.h"
+	"./Maths/WTcPerspectiveMatrix.h"
+	"./Maths/WTcMatrixStack.h"
+	"./Maths/WTcCameraMatrix4.h"
+	"./Maths/WTcPredictiveTracking.h"
+	"./Maths/WTcSimplexNoise.h"
+	"./Files/WTString.h"
+	"./Maths/WTc2DVtCode.h"
+	"./Maths/WTc3DVtCode.h"
+	"./Maths/WTc4DVtCode.h"
+	"./Engine/WTcSignal.h"
+	"./Engine/WTKernel.h"
+	"./Engine/Process/WTcParentStack.h"
+	"./Engine/Process/WTcProcess.h"
+	"./Engine/WTcFrameRate.h"
+	"./Files/WTvFile.h"
+	"./Files/WTcFileHandler.h"
+	"./Files/WTcFile.h"
+	"./Files/Misc/WTcReferenceList.h"
+	"./Files/WTcIMFLoader.h"
+	"./Files/Meshes/MeshClasses/WTcVertex.h"
+	"./Files/Meshes/MeshClasses/WTcPlane.h"
+	"./Files/Meshes/MeshClasses/WTcFace.h"
+	"./Files/Meshes/MeshClasses/WTcFullFaceData.h"
+	"./Files/Meshes/MeshClasses/WTcPolygon.h"
+	"./Files/Meshes/MeshClasses/WTcCluster.h"
+	"./Physics/WTcCollisionBase.h"
+	"./Files/CollisionMeshes/WTvCollisionData.h"
+	"./Files/CollisionMeshes/WTcSphereCollision.h"
+	"./Files/CollisionMeshes/WTcMeshCollision.h"
+	"./Files/CollisionMeshes/WTcBeamCollision.h"
+	"./Files/CollisionMeshes/WTcRayCollision.h"
+	"./Files/CollisionMeshes/WTcMeshFileCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollisionFile.h"
+	"./Files/CollisionMeshes/WTcMouseCollision.h"
+	"./Files/Textures/WTcTexture.h"
+	"./Files/Textures/WTcSeamlessTextureClasses.h"
+	"./Files/Textures/WTcTextureGenerator.h"
+	"./Files/Fonts/WTcFont.h"
+	"./Files/Shaders/WTcShader.h"
+	"./Files/Shaders/WTcShaderVariables.h"
+	"./Files/Shaders/WTcUserDefinedShaderVariable.h"
+	"./Files/Shaders/WTcShaderProgram.h"
+	"./Camera/FX/WTcFog.h"
+	"./Camera/WTcRenderOwner.h"
+	"./Camera/WTvRenderObject.h"
+	"./Files/Meshes/WTcMesh.h"
+	"./Files/Meshes/WTcAsteroid.h"
+	"./Files/Meshes/WTcUVSphere.h"
+	"./Files/Meshes/WTcIcoSphere.h"
+	"./Files/Misc/WTcMeshTreeNode.h"
+	"./Files/Misc/WTvMeshTree.h"
+	"./Files/Misc/WTcMeshTree.h"
+	"./Files/Misc/WTcLineArrayData.h"
+	"./Files/Misc/WTcCircleLineData.h"
+	"./Files/Meshes/WTv2DPolygon.h"
+	"./Physics/WTcCollisionObject.h"
+	"./Camera/WTcTextureStack.h"
+	"./Camera/WTcPerspectiveControl.h"
+	"./Camera/WTcCamera.h"
+	"./Camera/WTcExtraViewport.h"
+	"./Camera/WTcRenderPointer.h"
+	"./Camera/WTcRenderObject.h"
+	"./Physics/WTcMouseCollisionObject.h"
+	"./Camera/Nodes/WTcRenderNode.h"
+	"./Camera/Nodes/WTcNodeList.h"
+	"./Camera/Renderable/WTcAttributeData.h"
+	"./Files/Meshes/WTcmLandscape.h"
+	"./Camera/FX/WTcMaterial.h"
+	"./Camera/FX/WTvLight.h"
+	"./Camera/WTcLightHandler.h"
+	"./Camera/FX/WTcLight.h"
+	"./Camera/FX/WTcSpotLight.h"
+	"./Camera/Renderable/WTcImage.h"
+	"./Camera/Renderable/WTcTextureText.h"
+	"./Camera/Renderable/WTcModel.h"
+	"./Camera/Renderable/WTcLandscape.h"
+	"./Camera/Renderable/WTcPoint.h"
+	"./Camera/Renderable/WTcBillBoard.h"
+	"./Camera/Renderable/WTcLine.h"
+	"./Camera/Renderable/WTcLineArray.h"
+	"./Camera/Renderable/WTcParticleSettings.h"
+	"./Camera/Renderable/WTcParticle.h"
+	"./Camera/Renderable/WTcParticleGroup.h"
+	"./Camera/Renderable/WTcBeamMesh.h"
+	"./Camera/Renderable/WTcButton.h"
+	"./Camera/Renderable/WTcStarMap.h"
+	"./Camera/WTcPainter.h"
+	"./Windows/EventHandler/WTcKeyStore.h"
+	"./Windows/EventHandler/WTcKeyToggle.h"
+	"./Windows/EventHandler/WTcMouse.h"
+	"./Windows/EventHandler/WTcEventHandler.h"
+	"./Audio/WTcAudioDevice.h"
+	"./Audio/WTcAudioBuffer.h"
+	"./Audio/WTcAudioObject.h"
+	"./Files/Audio/WTcAudioData.h"
+	"./Files/Audio/WTcSoundObject.h"
+	"./Physics/WTcCollisionList.h"
+	"./Physics/WTcCollisionHandler.h"
+	"./Engine/WTcBase.h"
+
+1333359717 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/WTOsBits.h
+
+1338594290 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/WTWindowsKeyCodes.h
+
+1338629137 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/WTXWindowsKeyCodes.h
+
+1339065249 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/WTDefinitions.h
+
+1337332668 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/WTSettings.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/WTSetDefinitions.h
+
+1335355958 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/IMFDefinitions.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/WTcFlags.h
+
+1337251768 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/GlobalPointers.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/log.h
+	<string>
+	<ostream>
+	<map>
+	<vector>
+	<boost/shared_ptr.hpp>
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/CException.h
+	<string>
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTcSingleton.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTRadix.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/WTcSync.h
+
+1339071762 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/WTcWindow.h
+
+1337346164 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTLLTemplate.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTMinLinkedList.h
+
+1338025679 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTLimitedList.h
+
+1331628462 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/PTL/WTcPushPopStack.h
+
+1338387177 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTMath.h
+
+1335185828 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc2DVt.h
+
+1335790963 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc3DVt.h
+
+1335371405 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc4DVt.h
+
+1335182461 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcColors.h
+
+1336565757 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcMatrix4.h
+
+1335882667 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcMomentum.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcPerspectiveMatrix.h
+
+1330084863 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcMatrixStack.h
+
+1335382595 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcCameraMatrix4.h
+
+1331572895 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcPredictiveTracking.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/WTString.h
+
+1335270800 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc2DVtCode.h
+
+1335791121 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc3DVtCode.h
+
+1335371419 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTc4DVtCode.h
+
+1331464794 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/WTcSignal.h
+
+1335876204 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/WTKernel.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/Process/WTcParentStack.h
+
+1331464802 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/Process/WTcProcess.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/WTcFrameRate.h
+
+1338636617 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/WTvFile.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/WTcFileHandler.h
+
+1338636626 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/WTcFile.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTcReferenceList.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/WTcIMFLoader.h
+
+1331302560 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcVertex.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcPlane.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcFace.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcFullFaceData.h
+
+1331301116 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcPolygon.h
+
+1331301220 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/MeshClasses/WTcCluster.h
+
+1336998695 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Physics/WTcCollisionBase.h
+
+1337004790 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTvCollisionData.h
+
+1337004730 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcSphereCollision.h
+
+1327586686 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcMeshCollision.h
+
+1336985029 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcBeamCollision.h
+
+1336985172 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcRayCollision.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcMeshFileCollision.h
+
+1336994975 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcCompoundCollision.h
+
+1328549372 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcCompoundCollisionFile.h
+
+1335876211 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Textures/WTcTexture.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Fonts/WTcFont.h
+
+1329841865 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Shaders/WTcShader.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Shaders/WTcShaderVariables.h
+
+1339409613 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Shaders/WTcUserDefinedShaderVariable.h
+
+1333615453 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Shaders/WTcShaderProgram.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/FX/WTcFog.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcRenderOwner.h
+
+1339414290 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTvRenderObject.h
+
+1338627896 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTcMesh.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTcMeshTreeNode.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTvMeshTree.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTcMeshTree.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTv2DPolygon.h
+
+1336998730 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Physics/WTcCollisionObject.h
+
+1333126556 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcTextureStack.h
+
+1330453962 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcPerspectiveControl.h
+
+1333804719 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcCamera.h
+
+1328735584 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcExtraViewport.h
+
+1333824765 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcRenderPointer.h
+
+1336836199 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcRenderObject.h
+
+1337350270 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Nodes/WTcRenderNode.h
+
+1337352137 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Nodes/WTcNodeList.h
+
+1331634430 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTcmLandscape.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/FX/WTcMaterial.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/FX/WTvLight.h
+
+1338308482 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcLightHandler.h
+
+1338896863 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/FX/WTcLight.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/FX/WTcSpotLight.h
+
+1338641626 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcImage.h
+
+1338628662 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcTextureText.h
+
+1335868618 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcModel.h
+
+1331633466 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcLandscape.h
+
+1335891886 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcPoint.h
+
+1338637906 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcLine.h
+
+1339079036 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcParticleGroup.h
+
+1338640323 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcParticle.h
+
+1336473387 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcBeamMesh.h
+
+1337547435 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcButton.h
+
+1337960547 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcStarMap.h
+
+1333825009 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/WTcPainter.h
+
+1335523398 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/EventHandler/WTcKeyStore.h
+
+1339065262 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/EventHandler/WTcMouse.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/EventHandler/WTcEventHandler.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Audio/WTcAudioDevice.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Audio/WTcAudioBuffer.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Audio/WTcAudioObject.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Audio/WTcAudioData.h
+
+1327500232 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Audio/WTcSoundObject.h
+
+1336993808 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Physics/WTcCollisionList.h
+
+1337759965 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Physics/WTcCollisionHandler.h
+
+1339055126 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Engine/WTcBase.h
+
+1339075287 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTGameSettings.h
+
+1337268886 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTcUserSettings.h
+
+1337692297 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcShield.h
+
+1337770660 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcBullet.h
+
+1337772515 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcFighter.h
+
+1339075735 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlayer.h
+
+1338559893 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcCore.h
+
+1329925841 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcExitScreen.h
+
+1338904256 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcCore.cpp
+	"../main.h"
+
+1338642735 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcExitScreen.cpp
+	"../main.h"
+
+1337772529 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcFighter.cpp
+	"../main.h"
+
+1339075962 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlayer.cpp
+	"../main.h"
+
+1338643272 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcShield.cpp
+	"../main.h"
+
+1337683180 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTcUserSettings.cpp
+	"../main.h"
+
+1339082830 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/main.cpp
+	"main.h"
+
+1329927207 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcExitScreen.cpp
+	"../main.h"
+
+1331716431 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/main.h
+	"../../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcFighter.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/WTcLeviathanGeneral.h"
+	"./Process/WTcLeviathanHull.h"
+	"./Process/WTcLeviathanShield.h"
+	"./Process/WTcLeviathanTurret.h"
+	"./Process/WTcLeviathanSensor.h"
+	"./Process/WTcLeviathanThruster.h"
+	"./Process/WTcLeviathanReactor.h"
+	"./Process/WTcLeviathanCoolingVents.h"
+	"./Process/WTcTrainingLeviathan.h"
+	"./Process/WTcExitScreen.h"
+
+1331670591 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Settings/WTGameSettings.h
+
+1314736682 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Settings/WTcUserSettings.h
+
+1331558932 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcShield.h
+
+1331499509 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcBullet.h
+
+1331465213 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcFighter.h
+
+1331630399 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcPlayer.h
+
+1330089152 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcCore.h
+
+1331716126 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanGeneral.h
+
+1331715398 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanHull.h
+
+1331715433 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanShield.h
+
+1331715443 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanTurret.h
+
+1331714906 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcTrainingLeviathan.h
+
+1329925841 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcExitScreen.h
+
+1326026135 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/main.cpp
+	"main.h"
+
+1331715426 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanSensor.h
+
+1331716012 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanThruster.h
+
+1331716479 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanReactor.h
+
+1331671140 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcLeviathanCoolingVents.h
+
+1331469020 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/Code/src/Process/WTcFighter.cpp
+	"../main.h"
+
+1338548384 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcAsteroidObject.cpp
+	"../main.h"
+
+1335528552 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Global/WTKeyStateDefinitions.h
+
+1335775681 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcDoubleMatrix4.h
+
+1335195878 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Maths/WTcSimplexNoise.h
+
+1335264992 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Textures/WTcSeamlessTextureClasses.h
+
+1335197057 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Textures/WTcTextureGenerator.h
+
+1335382382 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTcAsteroid.h
+
+1335793415 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcAttributeData.h
+
+1335951640 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcBillBoard.h
+
+1339244284 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcParticleSettings.h
+
+1335952287 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMapDisplay.h
+
+1337095579 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMissile.h
+
+1336521159 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanGeneral.h
+
+1336486241 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHull.h
+
+1336523517 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanShield.h
+
+1336556843 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTurret.h
+
+1336558028 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanProjectileTurret.h
+
+1336524563 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanBeamTurret.h
+
+1336524882 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanMissileTurret.h
+
+1336557103 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTractorTurret.h
+
+1336522966 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSensor.h
+
+1336523923 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanThruster.h
+
+1336521124 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanReactor.h
+
+1336524261 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanCoolingVents.h
+
+1336525432 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHullMultiHull.h
+
+1336551934 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSettings.h
+
+1336526503 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcTrainingLeviathan.h
+
+1335891387 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcAsteroidObject.h
+
+1336524757 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanBeamTurret.cpp
+	"../main.h"
+
+1336524346 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanCoolingVents.cpp
+	"../main.h"
+
+1336562381 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanGeneral.cpp
+	"../main.h"
+
+1336486398 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHull.cpp
+	"../main.h"
+
+1336557133 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHullMultiHull.cpp
+	"../main.h"
+
+1336524929 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanMissileTurret.cpp
+	"../main.h"
+
+1336557415 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanProjectileTurret.cpp
+	"../main.h"
+
+1336552804 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanReactor.cpp
+	"../main.h"
+
+1336523079 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSensor.cpp
+	"../main.h"
+
+1336552043 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSettings.cpp
+	"../main.h"
+
+1336523685 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanShield.cpp
+	"../main.h"
+
+1336550695 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanThruster.cpp
+	"../main.h"
+
+1336557194 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTractorTurret.cpp
+	"../main.h"
+
+1336556980 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTurret.cpp
+	"../main.h"
+
+1337333626 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMapDisplay.cpp
+	"../main.h"
+
+1336066533 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMissile.cpp
+	"../main.h"
+
+1336562521 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcTrainingLeviathan.cpp
+	"../main.h"
+
+1337004883 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/CollisionMeshes/WTcMouseCollision.h
+
+1338627954 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTcUVSphere.h
+
+1338974860 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Meshes/WTcIcoSphere.h
+
+1338639177 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTcLineArrayData.h
+
+1337004312 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Physics/WTcMouseCollisionObject.h
+
+1338639101 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Camera/Renderable/WTcLineArray.h
+
+1337268420 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Windows/EventHandler/WTcKeyToggle.h
+
+1337268995 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMessageFeed.h
+
+1337793378 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanGeneralSettings.h
+
+1336748843 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanHullSettings.h
+
+1336749025 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanShieldSettings.h
+
+1337271925 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanTurretSettings.h
+
+1337770784 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanProjectileTurretSettings.h
+
+1337689584 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanBeamTurretSettings.h
+
+1337689574 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanMissileTurretSettings.h
+
+1337272047 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanTractorTurretSettings.h
+
+1337689564 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanSensorSettings.h
+
+1336749045 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanThrusterSettings.h
+
+1337781982 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanReactorSettings.h
+
+1337689580 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanCoolingVentsSettings.h
+
+1336748871 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanHullMultiHullSettings.h
+
+1338056734 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanSettings.h
+
+1337791852 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanGeneral.h
+
+1337776731 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanHull.h
+
+1337776765 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanShield.h
+
+1337604220 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanTurret.h
+
+1337776744 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanProjectileTurret.h
+
+1337776720 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanBeamTurret.h
+
+1337776740 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanMissileTurret.h
+
+1337676929 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanTractorTurret.h
+
+1337776760 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanSensor.h
+
+1337776771 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanThruster.h
+
+1337781948 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanReactor.h
+
+1337849994 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanCoolingVents.h
+
+1337776736 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanHullMultiHull.h
+
+1337801091 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathan.h
+
+1338202183 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcTrainingLeviathan.h
+
+1338400522 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponentBox.h
+
+1338641875 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponentTextField.h
+
+1337783821 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponent.h
+
+1338400659 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningLeviathan.h
+
+1338400041 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningScreen.h
+
+1337272873 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningHull.h
+
+1337782707 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningReactor.h
+
+1337272906 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningThruster.h
+
+1337272897 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningSensor.h
+
+1337272901 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningShield.h
+
+1337272916 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningVent.h
+
+1338207683 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningArcs.h
+
+1337272776 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningTurret.h
+
+1337297716 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningProjectileTurret.h
+
+1337272759 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningBeamTurret.h
+
+1337298036 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningTractorTurret.h
+
+1337297295 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningMissileTurret.h
+
+1338208200 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathan.cpp
+	"../../main.h"
+
+1337776790 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanBeamTurret.cpp
+	"../../main.h"
+
+1338053052 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanCoolingVents.cpp
+	"../../main.h"
+
+1339413604 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanGeneral.cpp
+	"../../main.h"
+
+1337776802 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanHull.cpp
+	"../../main.h"
+
+1337776807 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanHullMultiHull.cpp
+	"../../main.h"
+
+1337801420 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanMissileTurret.cpp
+	"../../main.h"
+
+1337801436 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanProjectileTurret.cpp
+	"../../main.h"
+
+1337801550 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanReactor.cpp
+	"../../main.h"
+
+1337776975 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanSensor.cpp
+	"../../main.h"
+
+1337776979 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanShield.cpp
+	"../../main.h"
+
+1337801749 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanThruster.cpp
+	"../../main.h"
+
+1337691650 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanTractorTurret.cpp
+	"../../main.h"
+
+1337776687 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanTurret.cpp
+	"../../main.h"
+
+1338642972 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcTrainingLeviathan.cpp
+	"../../main.h"
+
+1339074322 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningArcs.cpp
+	"../../main.h"
+
+1337783859 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningBeamTurret.cpp
+	"../../main.h"
+
+1338642562 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponent.cpp
+	"../../main.h"
+
+1338641897 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponentBox.cpp
+	"../../main.h"
+
+1337100861 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningComponentTextField.cpp
+	"../../main.h"
+
+1337340829 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningHull.cpp
+	"../../main.h"
+
+1339083700 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningLeviathan.cpp
+	"../../main.h"
+
+1337783886 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningMissileTurret.cpp
+	"../../main.h"
+
+1337783892 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningProjectileTurret.cpp
+	"../../main.h"
+
+1337802208 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningReactor.cpp
+	"../../main.h"
+
+1338828933 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningScreen.cpp
+	"../../main.h"
+
+1337783919 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningSensor.cpp
+	"../../main.h"
+
+1337783926 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningShield.cpp
+	"../../main.h"
+
+1337783931 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningThruster.cpp
+	"../../main.h"
+
+1337783936 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningTractorTurret.cpp
+	"../../main.h"
+
+1339068707 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningTurret.cpp
+	"../../main.h"
+
+1337783953 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningVent.cpp
+	"../../main.h"
+
+1337296829 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanBeamTurretSettings.cpp
+	"../../main.h"
+
+1337702026 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanCoolingVentsSettings.cpp
+	"../../main.h"
+
+1337782905 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanGeneralSettings.cpp
+	"../../main.h"
+
+1336748857 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanHullMultiHullSettings.cpp
+	"../../main.h"
+
+1336748836 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanHullSettings.cpp
+	"../../main.h"
+
+1337272149 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanMissileTurretSettings.cpp
+	"../../main.h"
+
+1337770918 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanProjectileTurretSettings.cpp
+	"../../main.h"
+
+1337782056 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanReactorSettings.cpp
+	"../../main.h"
+
+1336748984 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanSensorSettings.cpp
+	"../../main.h"
+
+1336749000 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanSettings.cpp
+	"../../main.h"
+
+1336749014 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanShieldSettings.cpp
+	"../../main.h"
+
+1336749038 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanThrusterSettings.cpp
+	"../../main.h"
+
+1337681401 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanTractorTurretSettings.cpp
+	"../../main.h"
+
+1337271945 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanTurretSettings.cpp
+	"../../main.h"
+
+1338642851 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMessageFeed.cpp
+	"../main.h"
+
+1338199454 /media/FileStore/My Documents/C++ Code/Bamboo/Bamboo/src/Files/Misc/WTcCircleLineData.h
+
+1337854398 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlannedSettings.h
+
+1337785751 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcDamageSettings.h
+
+1337785689 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcDamage.h
+
+1337775330 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcMissileSettings.h
+
+1337789497 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanRepairSettings.h
+
+1337958800 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcCombatScreen.h
+
+1337699471 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcCombatStatusBox.h
+
+1337769679 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcMissile.h
+
+1337791457 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanRepair.h
+
+1338202143 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcGunLeviathanMk1.h
+
+1338202109 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcBeamLeviathanMk1.h
+
+1338202171 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcMissileLeviathanMk1.h
+
+1338932999 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/SelectionScreen/WTcLeviathanSelectionMenu.h
+
+1337854687 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningPlayerGun.h
+
+1337548249 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningMissileRack.h
+
+1337793135 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningRepair.h
+
+1338558967 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcCombatScreen.cpp
+	"../../main.h"
+
+1338642434 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcCombatStatusBox.cpp
+	"../../main.h"
+
+1339076805 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcDamage.cpp
+	"../../main.h"
+
+1337801291 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcLeviathanRepair.cpp
+	"../../main.h"
+
+1337784728 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Combat/WTcMissile.cpp
+	"../../main.h"
+
+1338643005 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcBeamLeviathanMk1.cpp
+	"../../main.h"
+
+1338642994 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcGunLeviathanMk1.cpp
+	"../../main.h"
+
+1338642983 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Leviathans/WTcMissileLeviathanMk1.cpp
+	"../../main.h"
+
+1338828769 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningMissileRack.cpp
+	"../../main.h"
+
+1338642514 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningPlayerGun.cpp
+	"../../main.h"
+
+1337790048 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Planning/WTcPlanningRepair.cpp
+	"../../main.h"
+
+1338933878 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/SelectionScreen/WTcLeviathanSelectionMenu.cpp
+	"../../main.h"
+
+1337782548 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcDamageSettings.cpp
+	"../../main.h"
+
+1337789519 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcLeviathanRepairSettings.cpp
+	"../../main.h"
+
+1337775415 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/Settings/WTcMissileSettings.cpp
+	"../../main.h"
+
+1337544388 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlannedSettings.cpp
+	"../main.h"
+

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28808D5B-BE39-41B8-9369-D24761C981E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LeviathanVS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_COMPILED_IN_VS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Wills\C++Code\Bamboo\Includes\OpenAL 1.1 SDK\include;E:\Wills\C++Code\Bamboo\Includes\GLEW\include;E:\Wills\C++Code\Bamboo\Includes\boost_1_47_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\Wills\C++Code\Bamboo\Bamboo\lib;E:\Wills\C++Code\Bamboo\Includes\GLEW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Bamboo_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_COMPILED_IN_VS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\Wills\C++Code\Bamboo\Bamboo\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Bamboo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcCombatScreen.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcCombatStatusBox.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcDamage.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcFoundationTracking.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathan.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanBeamTurret.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanCoolingVents.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanGeneral.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanHull.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanHullMultiHull.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanMissileTurret.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanProjectileTurret.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanReactor.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanRepair.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanSensor.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanShield.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanThruster.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanTractorTurret.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanTurret.h" />
+    <ClInclude Include="..\..\src\Process\Combat\WTcMissile.h" />
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcBeamLeviathanMk1.h" />
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcGunLeviathanMk1.h" />
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcMissileLeviathanMk1.h" />
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcTrainingLeviathan.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningArcs.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningBeamTurret.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponent.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponentBox.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponentTextField.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningHull.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningLeviathan.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningMissileRack.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningMissileTurret.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningPlayerGun.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningProjectileTurret.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningReactor.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningRepair.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningScreen.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningSensor.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningShield.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningThruster.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningTractorTurret.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningTurret.h" />
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningVent.h" />
+    <ClInclude Include="..\..\src\Process\SelectionScreen\WTcLeviathanSelectionMenu.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcDamageSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcFoundationClassSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanBeamTurretSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanCoolingVentsSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanGeneralSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanHullMultiHullSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanHullSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanMissileTurretSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanProjectileTurretSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanReactorSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanRepairSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanSensorSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanShieldSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanThrusterSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanTractorTurretSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanTurretSettings.h" />
+    <ClInclude Include="..\..\src\Process\Settings\WTcMissileSettings.h" />
+    <ClInclude Include="..\..\src\Process\WTcAsteroidObject.h" />
+    <ClInclude Include="..\..\src\Process\WTcBullet.h" />
+    <ClInclude Include="..\..\src\Process\WTcCore.h" />
+    <ClInclude Include="..\..\src\Process\WTcExitScreen.h" />
+    <ClInclude Include="..\..\src\Process\WTcFighter.h" />
+    <ClInclude Include="..\..\src\Process\WTcMapDisplay.h" />
+    <ClInclude Include="..\..\src\Process\WTcMessageFeed.h" />
+    <ClInclude Include="..\..\src\Process\WTcPlannedSettings.h" />
+    <ClInclude Include="..\..\src\Process\WTcPlayer.h" />
+    <ClInclude Include="..\..\src\Process\WTcShield.h" />
+    <ClInclude Include="..\..\src\Settings\WTcUserSettings.h" />
+    <ClInclude Include="..\..\src\Settings\WTGameSettings.h" />
+    <ClInclude Include="LeviathanVS.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcCombatScreen.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcCombatStatusBox.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcDamage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcFoundationTracking.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathan.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanBeamTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanCoolingVents.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanGeneral.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanHull.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanHullMultiHull.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanMissileTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanProjectileTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanReactor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanRepair.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanSensor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanShield.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanThruster.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanTractorTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcMissile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcBeamLeviathanMk1.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcGunLeviathanMk1.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcMissileLeviathanMk1.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcTrainingLeviathan.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningArcs.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningBeamTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponent.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponentBox.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponentTextField.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningHull.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningLeviathan.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningMissileRack.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningMissileTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningPlayerGun.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningProjectileTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningReactor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningRepair.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningScreen.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningSensor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningShield.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningThruster.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningTractorTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningTurret.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningVent.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\SelectionScreen\WTcLeviathanSelectionMenu.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcDamageSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcFoundationClassSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanBeamTurretSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanCoolingVentsSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanGeneralSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanHullMultiHullSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanHullSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanMissileTurretSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanProjectileTurretSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanReactorSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanRepairSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanSensorSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanShieldSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanThrusterSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanTractorTurretSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanTurretSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcMissileSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcAsteroidObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcBullet.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcCore.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcExitScreen.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcFighter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcMapDisplay.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcMessageFeed.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcPlannedSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcPlayer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcShield.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Settings\WTcUserSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="LeviathanVS.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeviathanVS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LeviathanVS.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

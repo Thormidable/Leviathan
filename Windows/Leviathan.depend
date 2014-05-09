@@ -1,0 +1,4119 @@
+# depslib dependency file v1.0
+1341494205 source:e:\my documents\c++ code\bamboo\leviathan\src\main.cpp
+	"main.h"
+
+1287944694 
+
+1341841671 e:\my documents\c++ code\bamboo\leviathan\src\main.h
+	"../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcPlannedSettings.h"
+	"./Process/WTcMapDisplay.h"
+	"./Process/Settings/WTcDamageSettings.h"
+	"./Process/Combat/WTcDamage.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcFighter.h"
+	"./Process/Settings/WTcMissileSettings.h"
+	"./Process/Settings/WTcLeviathanGeneralSettings.h"
+	"./Process/Settings/WTcFoundationClassSettings.h"
+	"./Process/Settings/WTcLeviathanHullSettings.h"
+	"./Process/Settings/WTcLeviathanShieldSettings.h"
+	"./Process/Settings/WTcLeviathanTurretSettings.h"
+	"./Process/Settings/WTcLeviathanProjectileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanBeamTurretSettings.h"
+	"./Process/Settings/WTcLeviathanMissileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanTractorTurretSettings.h"
+	"./Process/Settings/WTcLeviathanSensorSettings.h"
+	"./Process/Settings/WTcLeviathanThrusterSettings.h"
+	"./Process/Settings/WTcLeviathanReactorSettings.h"
+	"./Process/Settings/WTcLeviathanCoolingVentsSettings.h"
+	"./Process/Settings/WTcLeviathanHullMultiHullSettings.h"
+	"./Process/Settings/WTcLeviathanRepairSettings.h"
+	"./Process/Settings/WTcLeviathanSettings.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/Combat/WTcFoundationTracking.h"
+	"./Process/Combat/WTcCombatScreen.h"
+	"./Process/Combat/WTcCombatStatusBox.h"
+	"./Process/Combat/WTcMissile.h"
+	"./Process/Combat/WTcLeviathanGeneral.h"
+	"./Process/Combat/WTcLeviathanHull.h"
+	"./Process/Combat/WTcLeviathanShield.h"
+	"./Process/Combat/WTcLeviathanTurret.h"
+	"./Process/Combat/WTcLeviathanProjectileTurret.h"
+	"./Process/Combat/WTcLeviathanBeamTurret.h"
+	"./Process/Combat/WTcLeviathanMissileTurret.h"
+	"./Process/Combat/WTcLeviathanTractorTurret.h"
+	"./Process/Combat/WTcLeviathanSensor.h"
+	"./Process/Combat/WTcLeviathanThruster.h"
+	"./Process/Combat/WTcLeviathanReactor.h"
+	"./Process/Combat/WTcLeviathanCoolingVents.h"
+	"./Process/Combat/WTcLeviathanHullMultiHull.h"
+	"./Process/Combat/WTcLeviathanRepair.h"
+	"./Process/Combat/WTcLeviathan.h"
+	"./Process/Leviathans/WTcTrainingLeviathan.h"
+	"./Process/Leviathans/WTcGunLeviathanMk1.h"
+	"./Process/Leviathans/WTcBeamLeviathanMk1.h"
+	"./Process/Leviathans/WTcMissileLeviathanMk1.h"
+	"./Process/SelectionScreen/WTcLeviathanSelectionMenu.h"
+	"./Process/Planning/WTcPlanningPlayerGun.h"
+	"./Process/Planning/WTcPlanningMissileRack.h"
+	"./Process/Planning/WTcPlanningComponentBox.h"
+	"./Process/Planning/WTcPlanningComponentTextField.h"
+	"./Process/Planning/WTcPlanningComponent.h"
+	"./Process/Planning/WTcPlanningLeviathan.h"
+	"./Process/Planning/WTcPlanningScreen.h"
+	"./Process/Planning/WTcPlanningHull.h"
+	"./Process/Planning/WTcPlanningReactor.h"
+	"./Process/Planning/WTcPlanningThruster.h"
+	"./Process/Planning/WTcPlanningSensor.h"
+	"./Process/Planning/WTcPlanningShield.h"
+	"./Process/Planning/WTcPlanningVent.h"
+	"./Process/Planning/WTcPlanningArcs.h"
+	"./Process/Planning/WTcPlanningTurret.h"
+	"./Process/Planning/WTcPlanningProjectileTurret.h"
+	"./Process/Planning/WTcPlanningBeamTurret.h"
+	"./Process/Planning/WTcPlanningTractorTurret.h"
+	"./Process/Planning/WTcPlanningMissileTurret.h"
+	"./Process/Planning/WTcPlanningRepair.h"
+	"./Process/WTcAsteroidObject.h"
+	"./Process/WTcExitScreen.h"
+
+1334351358 /WTcExitScreen.h"
+
+1351785542 e:\my documents\c++ code\bamboo\bamboo\src\wtbamboo.h
+	<stdint.h>
+	<unistd.h>
+	"./WTOsBits.h"
+	"./Global/WTKeyStateDefinitions.h"
+	<windows.h>
+	<glew.h>
+	<glext.h>
+	<wglext.h>
+	<GL/gl.h>
+	<al.h>
+	<alc.h>
+	"./Windows/WTWindowsKeyCodes.h"
+	<GL/glxew.h>
+	<sys/time.h>
+	<X11/keysym.h>
+	<X11/Xlib.h>
+	<X11/X.h>
+	<X11/cursorfont.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"./Windows/WTXWindowsKeyCodes.h"
+	"./Global/WTDefinitions.h"
+	"./Global/WTSettings.h"
+	"./Global/WTSetDefinitions.h"
+	"./Global/IMFDefinitions.h"
+	"./Global/WTcFlags.h"
+	<dirent.h>
+	<typeinfo>
+	<cstdlib>
+	<cmath>
+	<cstring>
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"./Global/GlobalPointers.h"
+	"./Global/log.h"
+	"./Global/CException.h"
+	"./PTL/WTcSingleton.h"
+	"./PTL/WTRadix.h"
+	"./Windows/WTcSync.h"
+	"./Windows/WTcWindow.h"
+	"./PTL/WTLLTemplate.h"
+	"./PTL/WTLimitedList.h"
+	"./PTL/WTcPushPopStack.h"
+	"./Maths/WTc2DVt.h"
+	"./Maths/WTc3DVt.h"
+	"./Maths/WTc4DVt.h"
+	"./Maths/WTMath.h"
+	"./Maths/WTcColors.h"
+	"./Maths/WTcMatrix4.h"
+	"./Maths/WTcDoubleMatrix4.h"
+	"./Maths/WTcMomentum.h"
+	"./Maths/WTcPerspectiveMatrix.h"
+	"./Maths/WTcMatrixStack.h"
+	"./Maths/WTcCameraMatrix4.h"
+	"./Maths/WTcPredictiveTracking.h"
+	"./Maths/WTcSimplexNoise.h"
+	"./Files/WTString.h"
+	"./Maths/WTc2DVtCode.h"
+	"./Maths/WTc3DVtCode.h"
+	"./Maths/WTc4DVtCode.h"
+	"./Engine/WTcSignal.h"
+	"./Engine/WTKernel.h"
+	"./Engine/Process/WTcParentStack.h"
+	"./Engine/Process/WTcProcess.h"
+	"./Engine/WTcFrameRate.h"
+	"./Files/WTvFile.h"
+	"./Files/WTcFileHandler.h"
+	"./Files/WTcFile.h"
+	"./Files/WTcParser.h"
+	"./Files/Misc/WTcReferenceList.h"
+	"./Files/WTcIMFLoader.h"
+	"./Files/Meshes/MeshClasses/WTcVertex.h"
+	"./Files/Meshes/MeshClasses/WTcPlane.h"
+	"./Files/Meshes/MeshClasses/WTcFace.h"
+	"./Files/Meshes/MeshClasses/WTcFullFaceData.h"
+	"./Files/Meshes/MeshClasses/WTcPolygon.h"
+	"./Files/Meshes/MeshClasses/WTcCluster.h"
+	"./Physics/WTcCollisionBase.h"
+	"./Files/CollisionMeshes/WTvCollisionData.h"
+	"./Files/CollisionMeshes/WTcSphereCollision.h"
+	"./Files/CollisionMeshes/WTcMeshCollision.h"
+	"./Files/CollisionMeshes/WTcBeamCollision.h"
+	"./Files/CollisionMeshes/WTcRayCollision.h"
+	"./Files/CollisionMeshes/WTcMeshFileCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollisionFile.h"
+	"./Files/CollisionMeshes/WTcMouseCollision.h"
+	"./Files/Textures/WTcTexture.h"
+	"./Files/Textures/WTcSeamlessTextureClasses.h"
+	"./Files/Textures/WTcTextureGenerator.h"
+	"./Files/Fonts/WTcFont.h"
+	"./Files/Shaders/WTcShader.h"
+	"./Files/Shaders/WTcShaderVariables.h"
+	"./Files/Shaders/WTcUserDefinedShaderVariable.h"
+	"./Files/Shaders/WTcShaderProgram.h"
+	"./Camera/FX/WTcFog.h"
+	"./Camera/WTcRenderOwner.h"
+	"./Camera/WTvRenderObject.h"
+	"./Files/Meshes/WTcMesh.h"
+	"./Files/Meshes/WTcAsteroid.h"
+	"./Files/Meshes/WTcUVSphere.h"
+	"./Files/Meshes/WTcIcoSphere.h"
+	"./Files/Misc/WTcMeshTreeNode.h"
+	"./Files/Misc/WTvMeshTree.h"
+	"./Files/Misc/WTcMeshTree.h"
+	"./Files/Misc/WTcLineArrayData.h"
+	"./Files/Misc/WTcCircleLineData.h"
+	"./Files/Misc/WTcSettingsFile.h"
+	"./Files/Meshes/WTv2DPolygon.h"
+	"./Physics/WTcCollisionObject.h"
+	"./Camera/WTcTextureStack.h"
+	"./Camera/WTcPerspectiveControl.h"
+	"./Camera/WTcCamera.h"
+	"./Camera/WTcExtraViewport.h"
+	"./Camera/WTcRenderPointer.h"
+	"./Camera/WTcRenderObject.h"
+	"./Physics/WTcMouseCollisionObject.h"
+	"./Camera/Nodes/WTcRenderNode.h"
+	"./Camera/Nodes/WTcNodeList.h"
+	"./Camera/Renderable/WTcAttributeData.h"
+	"./Files/Meshes/WTcmLandscape.h"
+	"./Camera/FX/WTcMaterial.h"
+	"./Camera/FX/WTvLight.h"
+	"./Camera/WTcLightHandler.h"
+	"./Camera/FX/WTcLight.h"
+	"./Camera/FX/WTcSpotLight.h"
+	"./Camera/Renderable/WTcImage.h"
+	"./Camera/Renderable/WTcTextureText.h"
+	"./Camera/Renderable/WTcModel.h"
+	"./Camera/Renderable/WTcLandscape.h"
+	"./Camera/Renderable/WTcPoint.h"
+	"./Camera/Renderable/WTcBillBoard.h"
+	"./Camera/Renderable/WTcLine.h"
+	"./Camera/Renderable/WTcLineArray.h"
+	"./Camera/Renderable/WTcParticleSettings.h"
+	"./Camera/Renderable/WTcParticle.h"
+	"./Camera/Renderable/WTcParticleGroup.h"
+	"./Camera/Renderable/WTcBeamMesh.h"
+	"./Camera/Renderable/WTcButton.h"
+	"./Camera/Renderable/WTcStarMap.h"
+	"./Camera/WTcPainter.h"
+	"./Windows/EventHandler/WTcKeyStore.h"
+	"./Windows/EventHandler/WTcKeyToggle.h"
+	"./Windows/EventHandler/WTcMouse.h"
+	"./Windows/EventHandler/WTcEventHandler.h"
+	"./Audio/WTcAudioDevice.h"
+	"./Audio/WTcAudioBuffer.h"
+	"./Audio/WTcAudioObject.h"
+	"./Files/Audio/WTcAudioData.h"
+	"./Files/Audio/WTcSoundObject.h"
+	"./Physics/WTcCollisionList.h"
+	"./Physics/WTcCollisionHandler.h"
+	"./Engine/WTcBase.h"
+	"./Engine/Process/WTcToggleButton.h"
+	"./Engine/Process/WTcMessageFeed.h"
+	"./Engine/Process/WTcTextBoxWidget.h"
+	"./Engine/Process/WTcSliderWidget.h"
+	"./Engine/Process/WTcSelectionWidget.h"
+	"./Networking/WTcNetworkBase.h"
+	"./Networking/WTcP2PClient.h"
+	"./Networking/WTcP2PHost.h"
+
+1334330315 WTcBase.h"
+
+1333356117 e:\my documents\c++ code\bamboo\bamboo\src\wtosbits.h
+
+1314256674 e:\my documents\c++ code\bamboo\includes\glew\include\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1319525319 e:\my documents\c++ code\bamboo\includes\glew\include\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1259597834 h>
+
+1319525288 e:\my documents\c++ code\bamboo\includes\glew\include\wglext.h
+	<windows.h>
+
+1235996536 >
+
+1165588258 e:\my documents\c++ code\bamboo\includes\openal 1.1 sdk\include\al.h
+
+1176469368 e:\my documents\c++ code\bamboo\includes\openal 1.1 sdk\include\alc.h
+
+1338590690 e:\my documents\c++ code\bamboo\bamboo\src\windows\wtwindowskeycodes.h
+
+1338625537 e:\my documents\c++ code\bamboo\bamboo\src\windows\wtxwindowskeycodes.h
+
+1352135799 e:\my documents\c++ code\bamboo\bamboo\src\global\wtdefinitions.h
+
+1337329068 e:\my documents\c++ code\bamboo\bamboo\src\global\wtsettings.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\global\wtsetdefinitions.h
+
+1335352358 e:\my documents\c++ code\bamboo\bamboo\src\global\imfdefinitions.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\global\wtcflags.h
+
+1337248168 e:\my documents\c++ code\bamboo\bamboo\src\global\globalpointers.h
+
+1342689687 e:\my documents\c++ code\bamboo\bamboo\src\global\log.h
+	<string>
+	<ostream>
+	<map>
+	<vector>
+	<boost/shared_ptr.hpp>
+
+1327503832 red_ptr.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\shared_ptr.hpp
+	<boost/smart_ptr/shared_ptr.hpp>
+
+1235996536 rt_ptr/shared_ptr.hpp>
+
+1300823470 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\shared_ptr.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/shared_ptr_nmt.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/shared_count.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/smart_ptr/detail/sp_convertible.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+	<boost/memory_order.hpp>
+	<algorithm>
+	<functional>
+	<typeinfo>
+	<cstddef>
+	<iosfwd>
+	<ostream>
+	<boost/smart_ptr/detail/operator_bool.hpp>
+
+1300827070 rt_ptr/detail/operator_bool.hpp>
+
+1309996658 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config.hpp
+	<boost/config/select_compiler_config.hpp>
+	<boost/config/select_stdlib_config.hpp>
+	<boost/config/select_platform_config.hpp>
+	<boost/config/suffix.hpp>
+
+1310000258 fig/suffix.hpp>
+
+1303715448 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\select_compiler_config.hpp
+
+1303715448 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\select_stdlib_config.hpp
+	<cstddef>
+	<stddef.h>
+	<boost/config/no_tr1/utility.hpp>
+
+1303719048 fig/no_tr1/utility.hpp>
+
+1129721920 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1285906784 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\select_platform_config.hpp
+	<boost/config/posix_features.hpp>
+
+1285910384 fig/posix_features.hpp>
+
+1129281386 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\posix_features.hpp
+	<unistd.h>
+
+1303715448 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\suffix.hpp
+	<limits.h>
+	<cstddef>
+	"boost/type.hpp"
+	"boost/non_type.hpp"
+	<typeinfo>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_ptr_nmt.hpp
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/atomic_count.hpp>
+	<memory>
+	<algorithm>
+	<functional>
+	<new>
+
+1300826292 l>
+
+1297768732 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\assert.hpp
+	<boost/current_function.hpp>
+	<assert.h>
+	<boost/current_function.hpp>
+	<cstdlib>
+	<iostream>
+	<boost/current_function.hpp>
+
+1291862420 rent_function.hpp>
+
+1195996040 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\current_function.hpp
+
+1092312788 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\checked_delete.hpp
+
+1291858820 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\throw_exception.hpp
+	<boost/exception/detail/attribute_noreturn.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config.hpp>
+	<exception>
+	<boost/exception/exception.hpp>
+	<boost/current_function.hpp>
+
+1260984418 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\exception\detail\attribute_noreturn.hpp
+
+1274183638 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\detail\workaround.hpp
+	<boost/config.hpp>
+
+1274880842 fig.hpp>
+
+1310258758 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\exception\exception.hpp
+
+1240118270 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc_x86.hpp>
+	<boost/smart_ptr/detail/atomic_count_win32.hpp>
+	<boost/smart_ptr/detail/atomic_count_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+
+1240121870 rt_ptr/detail/atomic_count_pthreads.hpp>
+
+1300823706 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_has_sync.hpp
+
+1240118270 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_pthreads.hpp
+	<pthread.h>
+
+1240118270 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc_x86.hpp
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_win32.hpp
+	<boost/detail/interlocked.hpp>
+
+1235996536 ail/interlocked.hpp>
+
+1309996658 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\detail\interlocked.hpp
+	<boost/config.hpp>
+	<windows.h>
+
+1240118270 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_sync.hpp
+	<ia64intrin.h>
+
+1235996536 n.h>
+
+1240118270 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc.hpp
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+
+1240121870 icity.h>
+
+1129721920 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\config\no_tr1\memory.hpp
+	<memory>
+
+1300822692 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_count.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/bad_weak_ptr.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/sp_counted_impl.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<functional>
+	<new>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\bad_weak_ptr.hpp
+	<exception>
+
+1238145046 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_pt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_acc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_cw_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_mips.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_sparc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_w32.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+
+1238148646 rt_ptr/detail/sp_counted_base_spin.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_nt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235996536 ail/sp_typeinfo.hpp>
+
+1287941094 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\detail\sp_typeinfo.hpp
+	<boost/config.hpp>
+	<boost/current_function.hpp>
+	<functional>
+	<typeinfo>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_spin.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+
+1235996536 rt_ptr/detail/spinlock_pool.hpp>
+
+1300822176 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pool.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/spinlock.hpp>
+	<cstddef>
+
+1300824834 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_gcc_arm.hpp>
+	<boost/smart_ptr/detail/spinlock_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_w32.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_nt.hpp>
+
+1300828434 rt_ptr/detail/spinlock_nt.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pt.hpp
+	<pthread.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_gcc_arm.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1235996536 rt_ptr/detail/yield_k.hpp>
+
+1278778026 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\yield_k.hpp
+	<boost/config.hpp>
+	<windows.h>
+	<sched.h>
+	<time.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_sync.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+	<ia64intrin.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_nt.hpp
+	<boost/assert.hpp>
+
+1235996536 ert.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_pt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<pthread.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_x86.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_acc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<machine/sys/inline.h>
+
+1235996536 ys/inline.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_cw_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1238145046 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_mips.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_sync.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<limits.h>
+	<ia64intrin.h>
+
+1259594234 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_sparc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<inttypes.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/detail/sp_typeinfo.hpp>
+
+1300822692 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_impl.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/quick_allocator.hpp>
+	<memory>
+	<cstddef>
+
+1260794660 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\quick_allocator.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lightweight_mutex.hpp>
+	<boost/type_traits/type_with_alignment.hpp>
+	<boost/type_traits/alignment_of.hpp>
+	<new>
+	<cstddef>
+
+1235993852 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lightweight_mutex.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lwm_nop.hpp>
+	<boost/smart_ptr/detail/lwm_pthreads.hpp>
+	<boost/smart_ptr/detail/lwm_win32_cs.hpp>
+
+1235997452 rt_ptr/detail/lwm_win32_cs.hpp>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_nop.hpp
+
+1259594702 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_pthreads.hpp
+	<boost/assert.hpp>
+	<pthread.h>
+
+1235992936 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_win32_cs.hpp
+	<windows.h>
+
+1274877242 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_convertible.hpp
+	<boost/config.hpp>
+
+1259844638 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\memory_order.hpp
+
+1235994322 e:\my documents\c++ code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\operator_bool.hpp
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\global\cexception.h
+	<string>
+
+1343126213 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtcsingleton.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtradix.h
+
+1347651037 e:\my documents\c++ code\bamboo\bamboo\src\windows\wtcsync.h
+
+1350335427 e:\my documents\c++ code\bamboo\bamboo\src\windows\wtcwindow.h
+
+1348232864 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtlltemplate.h
+
+1327503832 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtminlinkedlist.h
+
+1346442778 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtlimitedlist.h
+
+1340794282 e:\my documents\c++ code\bamboo\bamboo\src\ptl\wtcpushpopstack.h
+
+1350470474 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtmath.h
+
+1352287737 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtccolors.h
+
+1352129637 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcmatrix4.h
+
+1342101135 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcmomentum.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcperspectivematrix.h
+
+1330084863 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcmatrixstack.h
+
+1342434836 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtccameramatrix4.h
+
+1341653513 e:\my documents\c++ code\bamboo\bamboo\src\files\wtstring.h
+
+1331464794 e:\my documents\c++ code\bamboo\bamboo\src\engine\wtcsignal.h
+
+1349789431 e:\my documents\c++ code\bamboo\bamboo\src\engine\wtkernel.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtcparentstack.h
+
+1345658529 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtcprocess.h
+
+1346749055 e:\my documents\c++ code\bamboo\bamboo\src\engine\wtcframerate.h
+
+1338633017 e:\my documents\c++ code\bamboo\bamboo\src\files\wtvfile.h
+
+1351788877 e:\my documents\c++ code\bamboo\bamboo\src\files\wtcfilehandler.h
+
+1338633026 e:\my documents\c++ code\bamboo\bamboo\src\files\wtcfile.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtcreferencelist.h
+
+1340791687 e:\my documents\c++ code\bamboo\bamboo\src\files\wtcimfloader.h
+
+1331302560 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtcvertex.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtcplane.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtcface.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtcfullfacedata.h
+
+1331301116 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtcpolygon.h
+
+1331301220 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\meshclasses\wtccluster.h
+
+1336995095 e:\my documents\c++ code\bamboo\bamboo\src\physics\wtccollisionbase.h
+
+1337001190 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtvcollisiondata.h
+
+1337001130 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcspherecollision.h
+
+1327586686 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcmeshcollision.h
+
+1336981429 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcbeamcollision.h
+
+1336981572 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcraycollision.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcmeshfilecollision.h
+
+1336991375 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtccompoundcollision.h
+
+1328549372 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtccompoundcollisionfile.h
+
+1352457700 e:\my documents\c++ code\bamboo\bamboo\src\files\textures\wtctexture.h
+
+1351703558 e:\my documents\c++ code\bamboo\bamboo\src\files\fonts\wtcfont.h
+
+1329841865 e:\my documents\c++ code\bamboo\bamboo\src\files\shaders\wtcshader.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\shaders\wtcshadervariables.h
+
+1339406013 e:\my documents\c++ code\bamboo\bamboo\src\files\shaders\wtcuserdefinedshadervariable.h
+
+1333611853 e:\my documents\c++ code\bamboo\bamboo\src\files\shaders\wtcshaderprogram.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\camera\fx\wtcfog.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcrenderowner.h
+
+1339410690 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtvrenderobject.h
+
+1341900038 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtcmesh.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtcmeshtreenode.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtvmeshtree.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtcmeshtree.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtv2dpolygon.h
+
+1351159819 e:\my documents\c++ code\bamboo\bamboo\src\physics\wtccollisionobject.h
+
+1333122956 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtctexturestack.h
+
+1341999150 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcperspectivecontrol.h
+
+1333801119 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtccamera.h
+
+1328735584 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcextraviewport.h
+
+1342174009 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcrenderpointer.h
+
+1341902617 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcrenderobject.h
+
+1337346670 e:\my documents\c++ code\bamboo\bamboo\src\camera\nodes\wtcrendernode.h
+
+1337348537 e:\my documents\c++ code\bamboo\bamboo\src\camera\nodes\wtcnodelist.h
+
+1331634430 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtcmlandscape.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\camera\fx\wtcmaterial.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\camera\fx\wtvlight.h
+
+1338304882 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtclighthandler.h
+
+1353061009 e:\my documents\c++ code\bamboo\bamboo\src\camera\fx\wtclight.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\camera\fx\wtcspotlight.h
+
+1350297456 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcimage.h
+
+1352894117 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtctexturetext.h
+
+1341900571 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcmodel.h
+
+1331633466 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtclandscape.h
+
+1351238188 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcpoint.h
+
+1342016578 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcline.h
+
+1339075436 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcparticlegroup.h
+
+1338636723 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcparticle.h
+
+1336469787 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcbeammesh.h
+
+1352136013 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcbutton.h
+
+1337956947 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcstarmap.h
+
+1333821409 e:\my documents\c++ code\bamboo\bamboo\src\camera\wtcpainter.h
+
+1344004674 e:\my documents\c++ code\bamboo\bamboo\src\windows\eventhandler\wtckeystore.h
+
+1341905509 e:\my documents\c++ code\bamboo\bamboo\src\windows\eventhandler\wtcmouse.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\windows\eventhandler\wtceventhandler.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\audio\wtcaudiodevice.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\audio\wtcaudiobuffer.h
+
+1350476817 e:\my documents\c++ code\bamboo\bamboo\src\audio\wtcaudioobject.h
+
+1327500232 e:\my documents\c++ code\bamboo\bamboo\src\files\audio\wtcaudiodata.h
+
+1350476048 e:\my documents\c++ code\bamboo\bamboo\src\files\audio\wtcsoundobject.h
+
+1346080865 e:\my documents\c++ code\bamboo\bamboo\src\physics\wtccollisionlist.h
+
+1351078128 e:\my documents\c++ code\bamboo\bamboo\src\physics\wtccollisionhandler.h
+
+1346744341 e:\my documents\c++ code\bamboo\bamboo\src\engine\wtcbase.h
+
+1341485753 e:\my documents\c++ code\bamboo\leviathan\src\settings\wtgamesettings.h
+
+1341495916 e:\my documents\c++ code\bamboo\leviathan\src\settings\wtcusersettings.h
+
+1337767060 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcbullet.h
+
+1337768915 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcfighter.h
+
+1341486065 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplayer.h
+
+1338556293 e:\my documents\c++ code\bamboo\leviathan\src\process\wtccore.h
+
+1341509345 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtccore.cpp
+	"../main.h"
+
+1334412968 "
+
+1337768929 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcfighter.cpp
+	"../main.h"
+
+1341495753 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplayer.cpp
+	"../main.h"
+
+1341496649 source:e:\my documents\c++ code\bamboo\leviathan\src\settings\wtcusersettings.cpp
+	"../main.h"
+
+1339585987 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcbullet.cpp
+	"../main.h"
+
+1329925841 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcexitscreen.h
+
+1338639135 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcexitscreen.cpp
+	"../main.h"
+
+1335182228 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc2dvt.h
+
+1342437835 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc3dvt.h
+
+1341828299 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc4dvt.h
+
+1335267200 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc2dvtcode.h
+
+1342437830 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc3dvtcode.h
+
+1341828318 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtc4dvtcode.h
+
+1331572895 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcpredictivetracking.h
+
+1337688697 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcshield.h
+
+1339512472 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcshield.cpp
+	"../main.h"
+
+1314256674 c:\silkcircuit\bamboo\includes\glew\include\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1319525320 c:\silkcircuit\bamboo\includes\glew\include\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1319525288 c:\silkcircuit\bamboo\includes\glew\include\wglext.h
+	<windows.h>
+
+1165588258 c:\silkcircuit\bamboo\includes\openal 1.1 sdk\include\al.h
+
+1176469368 c:\silkcircuit\bamboo\includes\openal 1.1 sdk\include\alc.h
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\shared_ptr.hpp
+	<boost/smart_ptr/shared_ptr.hpp>
+
+1324858980 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\shared_ptr.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/shared_ptr_nmt.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/shared_count.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/smart_ptr/detail/sp_convertible.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+	<boost/memory_order.hpp>
+	<algorithm>
+	<functional>
+	<typeinfo>
+	<cstddef>
+	<iosfwd>
+	<ostream>
+	<boost/smart_ptr/detail/operator_bool.hpp>
+
+1327874293 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config.hpp
+	<boost/config/select_compiler_config.hpp>
+	<boost/config/select_stdlib_config.hpp>
+	<boost/config/select_platform_config.hpp>
+	<boost/config/suffix.hpp>
+
+1318243855 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\select_compiler_config.hpp
+
+1303729848 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\select_stdlib_config.hpp
+	<cstddef>
+	<stddef.h>
+	<boost/config/no_tr1/utility.hpp>
+
+1129736320 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1318243855 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\select_platform_config.hpp
+	<boost/config/posix_features.hpp>
+
+1129295786 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\posix_features.hpp
+	<unistd.h>
+
+1324660651 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\suffix.hpp
+	<limits.h>
+	<cstddef>
+	"boost/type.hpp"
+	"boost/non_type.hpp"
+	<typeinfo>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_ptr_nmt.hpp
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/atomic_count.hpp>
+	<memory>
+	<algorithm>
+	<functional>
+	<new>
+
+1297786731 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\assert.hpp
+	<boost/current_function.hpp>
+	<assert.h>
+	<boost/current_function.hpp>
+	<cstdlib>
+	<iostream>
+	<boost/current_function.hpp>
+
+1327874293 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\current_function.hpp
+
+1092327187 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\checked_delete.hpp
+
+1291876819 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\throw_exception.hpp
+	<boost/exception/detail/attribute_noreturn.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config.hpp>
+	<exception>
+	<boost/exception/exception.hpp>
+	<boost/current_function.hpp>
+
+1261002417 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\exception\detail\attribute_noreturn.hpp
+
+1274198038 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\detail\workaround.hpp
+	<boost/config.hpp>
+
+1310273157 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\exception\exception.hpp
+
+1240132670 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc_x86.hpp>
+	<boost/smart_ptr/detail/atomic_count_win32.hpp>
+	<boost/smart_ptr/detail/atomic_count_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+
+1320678343 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_has_sync.hpp
+
+1240132670 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_pthreads.hpp
+	<pthread.h>
+
+1240132670 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc_x86.hpp
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_win32.hpp
+	<boost/detail/interlocked.hpp>
+
+1327874293 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\detail\interlocked.hpp
+	<boost/config.hpp>
+	<windows.h>
+	<intrin.h>
+
+1240132670 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_sync.hpp
+	<ia64intrin.h>
+
+1240132670 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc.hpp
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+
+1129736320 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\config\no_tr1\memory.hpp
+	<memory>
+
+1300837092 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_count.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/bad_weak_ptr.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/sp_counted_impl.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<functional>
+	<new>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\bad_weak_ptr.hpp
+	<exception>
+
+1324428236 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_pt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_acc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_cw_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_mips.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_sparc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_w32.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_aix.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_nt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1287955494 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\detail\sp_typeinfo.hpp
+	<boost/config.hpp>
+	<boost/current_function.hpp>
+	<functional>
+	<typeinfo>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_spin.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+
+1300836575 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pool.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/spinlock.hpp>
+	<cstddef>
+
+1300839234 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_gcc_arm.hpp>
+	<boost/smart_ptr/detail/spinlock_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_w32.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_nt.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pt.hpp
+	<pthread.h>
+
+1322675383 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_gcc_arm.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1278792425 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\yield_k.hpp
+	<boost/config.hpp>
+	<windows.h>
+	<sched.h>
+	<time.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_sync.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+	<ia64intrin.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_nt.hpp
+	<boost/assert.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_pt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<pthread.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_x86.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_acc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<machine/sys/inline.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_cw_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1320675923 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_mips.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_sync.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<limits.h>
+	<ia64intrin.h>
+
+1259612234 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_sparc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<inttypes.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/detail/sp_typeinfo.hpp>
+
+1300837092 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_impl.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/quick_allocator.hpp>
+	<memory>
+	<cstddef>
+
+1260812659 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\quick_allocator.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lightweight_mutex.hpp>
+	<boost/type_traits/type_with_alignment.hpp>
+	<boost/type_traits/alignment_of.hpp>
+	<new>
+	<cstddef>
+
+1236011851 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lightweight_mutex.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lwm_nop.hpp>
+	<boost/smart_ptr/detail/lwm_pthreads.hpp>
+	<boost/smart_ptr/detail/lwm_win32_cs.hpp>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_nop.hpp
+
+1259612701 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_pthreads.hpp
+	<boost/assert.hpp>
+	<pthread.h>
+
+1236010936 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_win32_cs.hpp
+	<windows.h>
+
+1274891641 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_convertible.hpp
+	<boost/config.hpp>
+
+1259862637 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\memory_order.hpp
+
+1236012322 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\operator_bool.hpp
+
+1334413508 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtccore.cpp
+	"../main.h"
+
+1334351358 e:\my documents\c++ code\bamboo\leviathan\code\src\main.h
+	"../../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcMissile.h"
+	"./Process/WTcFighter.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/WTcLeviathanGeneral.h"
+	"./Process/WTcLeviathanHull.h"
+	"./Process/WTcLeviathanShield.h"
+	"./Process/WTcLeviathanTurret.h"
+	"./Process/WTcLeviathanSensor.h"
+	"./Process/WTcLeviathanThruster.h"
+	"./Process/WTcLeviathanReactor.h"
+	"./Process/WTcLeviathanCoolingVents.h"
+	"./Process/WTcLeviathanHullMultiHull.h"
+	"./Process/WTcTrainingLeviathan.h"
+	"./Process/WTcAsteroidObject.h"
+	"./Process/WTcExitScreen.h"
+
+1333463122 e:\my documents\c++ code\bamboo\leviathan\code\src\settings\wtgamesettings.h
+
+1314736682 e:\my documents\c++ code\bamboo\leviathan\code\src\settings\wtcusersettings.h
+
+1332263297 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcshield.h
+
+1333463623 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcbullet.h
+
+1331468813 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcfighter.h
+
+1332283701 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcplayer.h
+
+1332259493 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtccore.h
+
+1329929441 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcexitscreen.h
+
+1334135700 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcexitscreen.cpp
+	"../main.h"
+
+1333553804 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcfighter.cpp
+	"../main.h"
+
+1334318764 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcplayer.cpp
+	"../main.h"
+
+1333451039 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcshield.cpp
+	"../main.h"
+
+1333452883 source:e:\my documents\c++ code\bamboo\leviathan\code\src\settings\wtcusersettings.cpp
+	"../main.h"
+
+1333970289 source:e:\my documents\c++ code\bamboo\leviathan\code\src\main.cpp
+	"main.h"
+
+1333977897 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcbullet.cpp
+	"../main.h"
+
+1333459288 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtctrainingleviathan.h
+
+1334352150 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtctrainingleviathan.cpp
+	"../main.h"
+
+1333458816 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathangeneral.h
+
+1333968642 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathangeneral.cpp
+	"../main.h"
+
+1333373287 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanhull.h
+
+1332327552 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanturret.h
+
+1333458483 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanhull.cpp
+	"../main.h"
+
+1333450621 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanturret.cpp
+	"../main.h"
+
+1333373302 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanshield.h
+
+1333373293 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathansensor.h
+
+1333373351 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathansensor.cpp
+	"../main.h"
+
+1333373359 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanshield.cpp
+	"../main.h"
+
+1333455054 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanthruster.h
+
+1333875325 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanthruster.cpp
+	"../main.h"
+
+1333373265 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathancoolingvents.h
+
+1333373330 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathancoolingvents.cpp
+	"../main.h"
+
+1333373281 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanreactor.h
+
+1333373347 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanreactor.cpp
+	"../main.h"
+
+1333374434 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcmissile.h
+
+1333838144 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcmissile.cpp
+	"../main.h"
+
+1335789815 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcattributedata.h
+
+1339240684 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcparticlesettings.h
+
+1333978020 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanhullmultihull.h
+
+1334351775 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcleviathanhullmultihull.cpp
+	"../main.h"
+
+1335378782 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtcasteroid.h
+
+1334351096 e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcasteroidobject.h
+
+1334412968 source:e:\my documents\c++ code\bamboo\leviathan\code\src\process\wtcasteroidobject.cpp
+	"../main.h"
+
+1334412968 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcAsteroidObject.cpp
+	"../main.h"
+
+1334351358 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/main.h
+	"../../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcMissile.h"
+	"./Process/WTcFighter.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/WTcLeviathanGeneral.h"
+	"./Process/WTcLeviathanHull.h"
+	"./Process/WTcLeviathanShield.h"
+	"./Process/WTcLeviathanTurret.h"
+	"./Process/WTcLeviathanSensor.h"
+	"./Process/WTcLeviathanThruster.h"
+	"./Process/WTcLeviathanReactor.h"
+	"./Process/WTcLeviathanCoolingVents.h"
+	"./Process/WTcLeviathanHullMultiHull.h"
+	"./Process/WTcTrainingLeviathan.h"
+	"./Process/WTcAsteroidObject.h"
+	"./Process/WTcExitScreen.h"
+
+1333463122 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTGameSettings.h
+
+1314736682 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTcUserSettings.h
+
+1332259697 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcShield.h
+
+1333463623 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcBullet.h
+
+1333374434 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMissile.h
+
+1331465213 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcFighter.h
+
+1332280101 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlayer.h
+
+1332255893 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcCore.h
+
+1333458816 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanGeneral.h
+
+1333373287 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHull.h
+
+1333373302 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanShield.h
+
+1332323952 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTurret.h
+
+1333373293 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSensor.h
+
+1333455054 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanThruster.h
+
+1333373281 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanReactor.h
+
+1333373265 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanCoolingVents.h
+
+1333978020 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHullMultiHull.h
+
+1333459288 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcTrainingLeviathan.h
+
+1334351096 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcAsteroidObject.h
+
+1329925841 /media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcExitScreen.h
+
+1333977897 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcBullet.cpp
+	"../main.h"
+
+1334413508 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcCore.cpp
+	"../main.h"
+
+1334135700 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcExitScreen.cpp
+	"../main.h"
+
+1333553804 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcFighter.cpp
+	"../main.h"
+
+1333373330 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanCoolingVents.cpp
+	"../main.h"
+
+1333968642 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanGeneral.cpp
+	"../main.h"
+
+1333458483 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHull.cpp
+	"../main.h"
+
+1334351775 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanHullMultiHull.cpp
+	"../main.h"
+
+1333373347 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanReactor.cpp
+	"../main.h"
+
+1333373351 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanSensor.cpp
+	"../main.h"
+
+1333373359 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanShield.cpp
+	"../main.h"
+
+1333875325 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanThruster.cpp
+	"../main.h"
+
+1333450621 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcLeviathanTurret.cpp
+	"../main.h"
+
+1333838144 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcMissile.cpp
+	"../main.h"
+
+1334318764 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcPlayer.cpp
+	"../main.h"
+
+1333451039 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcShield.cpp
+	"../main.h"
+
+1334352150 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Process/WTcTrainingLeviathan.cpp
+	"../main.h"
+
+1333452883 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/Settings/WTcUserSettings.cpp
+	"../main.h"
+
+1333970289 source:/media/FileStore/My Documents/C++ Code/Bamboo/Leviathan/src/main.cpp
+	"main.h"
+
+1335192278 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcsimplexnoise.h
+
+1335261392 e:\my documents\c++ code\bamboo\bamboo\src\files\textures\wtcseamlesstextureclasses.h
+
+1335193457 e:\my documents\c++ code\bamboo\bamboo\src\files\textures\wtctexturegenerator.h
+
+1337512722 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmissile.h
+
+1336747302 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathangeneral.h
+
+1336486241 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanhull.h
+
+1336523517 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanshield.h
+
+1336556843 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanturret.h
+
+1336522966 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathansensor.h
+
+1336523923 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanthruster.h
+
+1336521124 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanreactor.h
+
+1336524261 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathancoolingvents.h
+
+1336525432 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanhullmultihull.h
+
+1336742213 e:\my documents\c++ code\bamboo\leviathan\src\process\wtctrainingleviathan.h
+
+1335887787 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcasteroidobject.h
+
+1336524346 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathancoolingvents.cpp
+	"../main.h"
+
+1336486398 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanhull.cpp
+	"../main.h"
+
+1336557133 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanhullmultihull.cpp
+	"../main.h"
+
+1336523079 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathansensor.cpp
+	"../main.h"
+
+1336572465 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanshield.cpp
+	"../main.h"
+
+1336550695 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanthruster.cpp
+	"../main.h"
+
+1339429772 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcasteroidobject.cpp
+	"../main.h"
+
+1336747349 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathangeneral.cpp
+	"../main.h"
+
+1336552804 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanreactor.cpp
+	"../main.h"
+
+1336556980 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanturret.cpp
+	"../main.h"
+
+1337512514 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmissile.cpp
+	"../main.h"
+
+1336742197 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtctrainingleviathan.cpp
+	"../main.h"
+
+1335524952 e:\my documents\c++ code\bamboo\bamboo\src\global\wtkeystatedefinitions.h
+
+1335772081 e:\my documents\c++ code\bamboo\bamboo\src\maths\wtcdoublematrix4.h
+
+1335948687 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmapdisplay.h
+
+1337330026 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmapdisplay.cpp
+	"../main.h"
+
+1335948040 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtcbillboard.h
+
+1336558028 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanprojectileturret.h
+
+1336741871 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanbeamturret.h
+
+1336524882 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanmissileturret.h
+
+1336557103 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathantractorturret.h
+
+1336741878 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanbeamturret.cpp
+	"../main.h"
+
+1336524929 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanmissileturret.cpp
+	"../main.h"
+
+1336557415 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanprojectileturret.cpp
+	"../main.h"
+
+1336557194 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathantractorturret.cpp
+	"../main.h"
+
+1336551934 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathansettings.h
+
+1336552043 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathansettings.cpp
+	"../main.h"
+
+1336726544 e:\my documents\c++ code\bamboo\leviathan\src\process\wtctrainingleviathanold.h
+
+1336727595 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtctrainingleviathanold.cpp
+	"../main.h"
+
+1336742178 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathan.h
+
+1336742147 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathan.cpp
+	"../main.h"
+
+1336747459 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplanningscreen.h
+
+1336748301 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplanningscreen.cpp
+	"../main.h"
+
+1339586495 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathangeneral.h
+
+1337773131 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanhull.h
+
+1337773165 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanshield.h
+
+1337600620 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanturret.h
+
+1337773144 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanprojectileturret.h
+
+1337773120 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanbeamturret.h
+
+1337773140 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanmissileturret.h
+
+1337673329 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathantractorturret.h
+
+1337773160 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathansensor.h
+
+1337773171 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanthruster.h
+
+1337778348 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanreactor.h
+
+1337846394 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathancoolingvents.h
+
+1337773136 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanhullmultihull.h
+
+1339584836 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathan.h
+
+1339541548 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathangeneralsettings.h
+
+1336745243 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanhullsettings.h
+
+1336745425 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanshieldsettings.h
+
+1337268325 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanturretsettings.h
+
+1337767184 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanprojectileturretsettings.h
+
+1337685984 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanbeamturretsettings.h
+
+1337685974 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanmissileturretsettings.h
+
+1337268447 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathantractorturretsettings.h
+
+1337685964 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathansensorsettings.h
+
+1336745445 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanthrustersettings.h
+
+1337778382 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanreactorsettings.h
+
+1337685980 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathancoolingventssettings.h
+
+1336745271 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanhullmultihullsettings.h
+
+1338053134 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathansettings.h
+
+1338198583 e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtctrainingleviathan.h
+
+1338396441 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningscreen.h
+
+1339590195 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathan.cpp
+	"../../main.h"
+
+1337773190 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanbeamturret.cpp
+	"../../main.h"
+
+1338049452 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathancoolingvents.cpp
+	"../../main.h"
+
+1339591794 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathangeneral.cpp
+	"../../main.h"
+
+1337773202 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanhull.cpp
+	"../../main.h"
+
+1337773207 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanhullmultihull.cpp
+	"../../main.h"
+
+1337797820 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanmissileturret.cpp
+	"../../main.h"
+
+1337797836 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanprojectileturret.cpp
+	"../../main.h"
+
+1337797950 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanreactor.cpp
+	"../../main.h"
+
+1337773375 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathansensor.cpp
+	"../../main.h"
+
+1339509179 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanshield.cpp
+	"../../main.h"
+
+1337798149 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanthruster.cpp
+	"../../main.h"
+
+1337688050 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathantractorturret.cpp
+	"../../main.h"
+
+1337773087 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanturret.cpp
+	"../../main.h"
+
+1339590820 source:e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtctrainingleviathan.cpp
+	"../../main.h"
+
+1337293229 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanbeamturretsettings.cpp
+	"../../main.h"
+
+1337698426 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathancoolingventssettings.cpp
+	"../../main.h"
+
+1339541531 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathangeneralsettings.cpp
+	"../../main.h"
+
+1336745257 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanhullmultihullsettings.cpp
+	"../../main.h"
+
+1336745236 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanhullsettings.cpp
+	"../../main.h"
+
+1337268549 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanmissileturretsettings.cpp
+	"../../main.h"
+
+1337767318 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanprojectileturretsettings.cpp
+	"../../main.h"
+
+1337778456 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanreactorsettings.cpp
+	"../../main.h"
+
+1336745384 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathansensorsettings.cpp
+	"../../main.h"
+
+1336745400 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathansettings.cpp
+	"../../main.h"
+
+1336745414 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanshieldsettings.cpp
+	"../../main.h"
+
+1336745438 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanthrustersettings.cpp
+	"../../main.h"
+
+1337677801 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathantractorturretsettings.cpp
+	"../../main.h"
+
+1337268345 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanturretsettings.cpp
+	"../../main.h"
+
+1338397059 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningleviathan.h
+
+1337780221 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponent.h
+
+1337269273 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanninghull.h
+
+1339511398 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponent.cpp
+	"../../main.h"
+
+1337337229 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanninghull.cpp
+	"../../main.h"
+
+1341495931 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningleviathan.cpp
+	"../../main.h"
+
+1341903417 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningscreen.cpp
+	"../../main.h"
+
+1337779107 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningreactor.h
+
+1337798608 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningreactor.cpp
+	"../../main.h"
+
+1337001283 e:\my documents\c++ code\bamboo\bamboo\src\files\collisionmeshes\wtcmousecollision.h
+
+1337000712 e:\my documents\c++ code\bamboo\bamboo\src\physics\wtcmousecollisionobject.h
+
+1337269306 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningthruster.h
+
+1337269297 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningsensor.h
+
+1337780319 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningsensor.cpp
+	"../../main.h"
+
+1337269301 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningshield.h
+
+1337780331 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningthruster.cpp
+	"../../main.h"
+
+1339511450 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningshield.cpp
+	"../../main.h"
+
+1337269316 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningvent.h
+
+1338204083 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningarcs.h
+
+1337294116 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningprojectileturret.h
+
+1337780353 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningvent.cpp
+	"../../main.h"
+
+1339070722 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningarcs.cpp
+	"../../main.h"
+
+1337780292 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningprojectileturret.cpp
+	"../../main.h"
+
+1338624354 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtcuvsphere.h
+
+1351076617 e:\my documents\c++ code\bamboo\bamboo\src\files\meshes\wtcicosphere.h
+
+1338635501 e:\my documents\c++ code\bamboo\bamboo\src\camera\renderable\wtclinearray.h
+
+1341838958 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtclinearraydata.h
+
+1337269159 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningbeamturret.h
+
+1337780259 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningbeamturret.cpp
+	"../../main.h"
+
+1337294436 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningtractorturret.h
+
+1337293695 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningmissileturret.h
+
+1337780336 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningtractorturret.cpp
+	"../../main.h"
+
+1337780286 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningmissileturret.cpp
+	"../../main.h"
+
+1338396922 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponentbox.h
+
+1338638275 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponenttextfield.h
+
+1338638297 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponentbox.cpp
+	"../../main.h"
+
+1337097261 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningcomponenttextfield.cpp
+	"../../main.h"
+
+1337264820 e:\my documents\c++ code\bamboo\bamboo\src\windows\eventhandler\wtckeytoggle.h
+
+1337268995 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmessagefeed.h
+
+1338642851 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcmessagefeed.cpp
+	"../main.h"
+
+1337269176 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningturret.h
+
+1339065107 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningturret.cpp
+	"../../main.h"
+
+1337850798 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplannedsettings.h
+
+1339584246 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcplannedsettings.cpp
+	"../main.h"
+
+1337771730 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcmissilesettings.h
+
+1337766079 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcmissile.h
+
+1337781128 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcmissile.cpp
+	"../../main.h"
+
+1337771815 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcmissilesettings.cpp
+	"../../main.h"
+
+1337544649 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningmissilerack.h
+
+1338825169 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningmissilerack.cpp
+	"../../main.h"
+
+1337695871 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtccombatstatusbox.h
+
+1338638834 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtccombatstatusbox.cpp
+	"../../main.h"
+
+1337782151 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcdamagesettings.h
+
+1337782089 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcdamage.h
+
+1339073205 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcdamage.cpp
+	"../../main.h"
+
+1337778948 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcdamagesettings.cpp
+	"../../main.h"
+
+1337785897 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanrepairsettings.h
+
+1337787857 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanrepair.h
+
+1337789535 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningrepair.h
+
+1337797691 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcleviathanrepair.cpp
+	"../../main.h"
+
+1337786448 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningrepair.cpp
+	"../../main.h"
+
+1337785919 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcleviathanrepairsettings.cpp
+	"../../main.h"
+
+1337851087 e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningplayergun.h
+
+1338638914 source:e:\my documents\c++ code\bamboo\leviathan\src\process\planning\wtcplanningplayergun.cpp
+	"../../main.h"
+
+1338057392 e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanselectionmenu.h
+
+1338057525 source:e:\my documents\c++ code\bamboo\leviathan\src\process\wtcleviathanselectionmenu.cpp
+	"../main.h"
+
+1337955200 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtccombatscreen.h
+
+1338555367 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtccombatscreen.cpp
+	"../../main.h"
+
+1338198543 e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcgunleviathanmk1.h
+
+1338198509 e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcbeamleviathanmk1.h
+
+1338198571 e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcmissileleviathanmk1.h
+
+1339541621 source:e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcbeamleviathanmk1.cpp
+	"../../main.h"
+
+1339541635 source:e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcgunleviathanmk1.cpp
+	"../../main.h"
+
+1339541646 source:e:\my documents\c++ code\bamboo\leviathan\src\process\leviathans\wtcmissileleviathanmk1.cpp
+	"../../main.h"
+
+1338195854 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtccirclelinedata.h
+
+1338929399 e:\my documents\c++ code\bamboo\leviathan\src\process\selectionscreen\wtcleviathanselectionmenu.h
+
+1338930278 source:e:\my documents\c++ code\bamboo\leviathan\src\process\selectionscreen\wtcleviathanselectionmenu.cpp
+	"../../main.h"
+
+1339540798 e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcfoundationclasssettings.h
+
+1341223500 source:e:\my documents\c++ code\bamboo\leviathan\src\process\settings\wtcfoundationclasssettings.cpp
+	"../../main.h"
+
+1339586124 e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcfoundationtracking.h
+
+1339591157 source:e:\my documents\c++ code\bamboo\leviathan\src\process\combat\wtcfoundationtracking.cpp
+	"../../main.h"
+
+1343220045 e:\my documents\c++ code\bamboo\bamboo\src\files\wtcparser.h
+
+1345452619 e:\my documents\c++ code\bamboo\bamboo\src\files\misc\wtcsettingsfile.h
+
+1351870037 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtctogglebutton.h
+
+1352456668 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtcmessagefeed.h
+
+1352456551 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtctextboxwidget.h
+
+1352456646 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtcsliderwidget.h
+
+1352466471 e:\my documents\c++ code\bamboo\bamboo\src\engine\process\wtcselectionwidget.h
+
+1344009350 e:\my documents\c++ code\bamboo\bamboo\src\networking\wtcnetworkbase.h
+
+1343905024 e:\my documents\c++ code\bamboo\bamboo\src\networking\wtcp2pclient.h
+
+1342948973 e:\my documents\c++ code\bamboo\bamboo\src\networking\wtcp2phost.h
+
+1090798332 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type.hpp
+
+1084695475 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\non_type.hpp
+
+1324681970 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_aix.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<builtins.h>
+	<sys/atomic_op.h>
+
+1325956680 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\type_with_alignment.hpp
+	<boost/mpl/if.hpp>
+	<boost/preprocessor/list/for_each_i.hpp>
+	<boost/preprocessor/tuple/to_list.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/list/transform.hpp>
+	<boost/preprocessor/list/append.hpp>
+	<boost/type_traits/alignment_of.hpp>
+	<boost/type_traits/is_pod.hpp>
+	<boost/static_assert.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<cstddef>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\if.hpp
+	<boost/mpl/aux_/value_wknd.hpp>
+	<boost/mpl/aux_/static_cast.hpp>
+	<boost/mpl/aux_/na_spec.hpp>
+	<boost/mpl/aux_/lambda_support.hpp>
+	<boost/mpl/aux_/config/integral.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\value_wknd.hpp
+	<boost/mpl/aux_/static_cast.hpp>
+	<boost/mpl/aux_/config/integral.hpp>
+	<boost/mpl/aux_/config/eti.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/mpl/int.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\static_cast.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\workaround.hpp
+	<boost/detail/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\integral.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\msvc.hpp
+	<boost/config.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\eti.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\int.hpp
+	<boost/mpl/int_fwd.hpp>
+	<boost/mpl/aux_/integral_wrapper.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\int_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\adl_barrier.hpp
+	<boost/mpl/aux_/config/adl.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\adl.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/intel.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\intel.hpp
+	<boost/config.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\gcc.hpp
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\nttp_decl.hpp
+	<boost/mpl/aux_/config/nttp.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\nttp.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\cat.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\config\config.hpp
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\integral_wrapper.hpp
+	<boost/mpl/integral_c_tag.hpp>
+	<boost/mpl/aux_/static_cast.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\integral_c_tag.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\static_constant.hpp
+	<boost/config.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\na_spec.hpp
+	<boost/mpl/lambda_fwd.hpp>
+	<boost/mpl/int.hpp>
+	<boost/mpl/bool.hpp>
+	<boost/mpl/aux_/na.hpp>
+	<boost/mpl/aux_/arity.hpp>
+	<boost/mpl/aux_/template_arity_fwd.hpp>
+	<boost/mpl/aux_/preprocessor/params.hpp>
+	<boost/mpl/aux_/preprocessor/enum.hpp>
+	<boost/mpl/aux_/preprocessor/def_params_tail.hpp>
+	<boost/mpl/aux_/lambda_arity_param.hpp>
+	<boost/mpl/aux_/config/dtp.hpp>
+	<boost/mpl/aux_/config/eti.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/ttp.hpp>
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/aux_/config/overload_resolution.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\lambda_fwd.hpp
+	<boost/mpl/void_fwd.hpp>
+	<boost/mpl/aux_/na.hpp>
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/int.hpp>
+	<boost/mpl/aux_/lambda_arity_param.hpp>
+	<boost/mpl/aux_/template_arity_fwd.hpp>
+	<boost/mpl/bool.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\void_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\na.hpp
+	<boost/mpl/bool.hpp>
+	<boost/mpl/aux_/na_fwd.hpp>
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\bool.hpp
+	<boost/mpl/bool_fwd.hpp>
+	<boost/mpl/integral_c_tag.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\bool_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\na_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\ctps.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/config.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\lambda.hpp
+	<boost/mpl/aux_/config/ttp.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\ttp.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\lambda_arity_param.hpp
+	<boost/mpl/aux_/config/ttp.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\template_arity_fwd.hpp
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\arity.hpp
+	<boost/mpl/aux_/config/dtp.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\dtp.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\params.hpp
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/comma_if.hpp>
+	<boost/preprocessor/repeat.hpp>
+	<boost/preprocessor/inc.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\preprocessor.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\comma_if.hpp
+	<boost/preprocessor/punctuation/comma_if.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\punctuation\comma_if.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/facilities/empty.hpp>
+	<boost/preprocessor/punctuation/comma.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\if.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\iif.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\logical\bool.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\facilities\empty.hpp
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\punctuation\comma.hpp
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repeat.hpp
+	<boost/preprocessor/repetition/repeat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\repeat.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\debug\error.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1091341466 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\detail\auto_rec.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/dmc/auto_rec.hpp>
+	<boost/preprocessor/control/iif.hpp>
+
+1091341466 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\detail\dmc\auto_rec.hpp
+	<boost/preprocessor/control/iif.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\tuple\eat.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\inc.hpp
+	<boost/preprocessor/arithmetic/inc.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\arithmetic\inc.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\enum.hpp
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/comma_if.hpp>
+	<boost/preprocessor/repeat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\def_params_tail.hpp
+	<boost/mpl/limits/arity.hpp>
+	<boost/mpl/aux_/config/dtp.hpp>
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/preprocessor/comma_if.hpp>
+	<boost/preprocessor/logical/and.hpp>
+	<boost/preprocessor/identity.hpp>
+	<boost/preprocessor/empty.hpp>
+	<boost/mpl/aux_/preprocessor/filter_params.hpp>
+	<boost/mpl/aux_/preprocessor/sub.hpp>
+	<boost/preprocessor/arithmetic/add.hpp>
+	<boost/preprocessor/arithmetic/sub.hpp>
+	<boost/preprocessor/inc.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+	<boost/preprocessor/repeat.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\limits\arity.hpp
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\logical\and.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/logical/bitand.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\logical\bitand.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\identity.hpp
+	<boost/preprocessor/facilities/identity.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\facilities\identity.hpp
+	<boost/preprocessor/facilities/empty.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\empty.hpp
+	<boost/preprocessor/facilities/empty.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\filter_params.hpp
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\sub.hpp
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/mpl/aux_/preprocessor/tuple.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/arithmetic/sub.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\preprocessor\tuple.hpp
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\arithmetic\sub.hpp
+	<boost/preprocessor/arithmetic/dec.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/while.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\arithmetic\dec.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\while.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/list/fold_left.hpp>
+	<boost/preprocessor/list/fold_right.hpp>
+	<boost/preprocessor/logical/bitand.hpp>
+	<boost/preprocessor/control/detail/edg/while.hpp>
+	<boost/preprocessor/control/detail/msvc/while.hpp>
+	<boost/preprocessor/control/detail/dmc/while.hpp>
+	<boost/preprocessor/control/detail/while.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\fold_left.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/control/while.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/list/detail/edg/fold_left.hpp>
+	<boost/preprocessor/list/detail/dmc/fold_left.hpp>
+	<boost/preprocessor/list/detail/fold_left.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\detail\edg\fold_left.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\expr_iif.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\adt.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/is_binary.hpp>
+	<boost/preprocessor/logical/compl.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\detail\is_binary.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/check.hpp>
+
+1196014039 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\detail\check.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\logical\compl.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\detail\dmc\fold_left.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\tuple\elem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+	<boost/preprocessor/tuple/rem.hpp>
+	<boost/preprocessor/variadic/elem.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\facilities\overload.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/variadic/size.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\variadic\size.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\tuple\rem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\variadic\elem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\detail\fold_left.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\fold_right.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/control/while.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/list/detail/edg/fold_right.hpp>
+	<boost/preprocessor/list/detail/fold_right.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\detail\edg\fold_right.hpp
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\detail\fold_right.hpp
+	<boost/preprocessor/list/fold_left.hpp>
+	<boost/preprocessor/list/reverse.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\reverse.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/list/fold_left.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\detail\edg\while.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\detail\msvc\while.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\detail\dmc\while.hpp
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\control\detail\while.hpp
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\arithmetic\add.hpp
+	<boost/preprocessor/arithmetic/dec.hpp>
+	<boost/preprocessor/arithmetic/inc.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/while.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\overload_resolution.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\lambda_support.hpp
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/int_fwd.hpp>
+	<boost/mpl/aux_/yes_no.hpp>
+	<boost/mpl/aux_/na_fwd.hpp>
+	<boost/mpl/aux_/preprocessor/params.hpp>
+	<boost/mpl/aux_/preprocessor/enum.hpp>
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/preprocessor/tuple/to_list.hpp>
+	<boost/preprocessor/list/for_each_i.hpp>
+	<boost/preprocessor/inc.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\yes_no.hpp
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/arrays.hpp>
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\aux_\config\arrays.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\tuple\to_list.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+	<boost/preprocessor/variadic/size.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\for_each_i.hpp
+	<boost/preprocessor/arithmetic/inc.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/repetition/for.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+	<boost/preprocessor/tuple/rem.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\for.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/repetition/detail/edg/for.hpp>
+	<boost/preprocessor/repetition/detail/msvc/for.hpp>
+	<boost/preprocessor/repetition/detail/dmc/for.hpp>
+	<boost/preprocessor/repetition/detail/for.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\detail\edg\for.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\detail\msvc\for.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\detail\dmc\for.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\detail\for.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\transform.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/list/fold_right.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+	<boost/preprocessor/tuple/rem.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\list\append.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/list/fold_right.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\alignment_of.hpp
+	<boost/config.hpp>
+	<cstddef>
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/detail/size_t_trait_def.hpp>
+	<boost/type_traits/detail/size_t_trait_undef.hpp>
+
+1317035980 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\intrinsics.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_same.hpp>
+	<algorithm>
+	<type_traits.h>
+	<msl_utility>
+	<boost/type_traits/is_same.hpp>
+	<boost/type_traits/is_same.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_volatile.hpp>
+	<boost/type_traits/is_abstract.hpp>
+	<boost/type_traits/is_same.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_volatile.hpp>
+	<boost/type_traits/is_same.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_volatile.hpp>
+	<boost/type_traits/is_same.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_volatile.hpp>
+	<boost/type_traits/is_void.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\config.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1278581278 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_same.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1070458451 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\yes_no_type.hpp
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\ice_and.hpp
+	<boost/config.hpp>
+
+1278253503 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_lvalue_reference.hpp>
+	<boost/type_traits/is_rvalue_reference.hpp>
+	<boost/type_traits/ice.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1278253503 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_lvalue_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/wrap.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1070458451 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\wrap.hpp
+
+1318195713 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\bool_trait_def.hpp
+	<boost/type_traits/detail/template_arity_spec.hpp>
+	<boost/type_traits/integral_constant.hpp>
+	<boost/mpl/bool.hpp>
+	<boost/mpl/aux_/lambda_support.hpp>
+	<boost/config.hpp>
+
+1094136097 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\template_arity_spec.hpp
+	<boost/mpl/int.hpp>
+	<boost/mpl/aux_/template_arity_fwd.hpp>
+	<boost/mpl/aux_/preprocessor/params.hpp>
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/aux_/config/overload_resolution.hpp>
+
+1206222355 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\integral_constant.hpp
+	<boost/config.hpp>
+	<boost/mpl/bool.hpp>
+	<boost/mpl/integral_c.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\integral_c.hpp
+	<boost/mpl/integral_c_fwd.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/mpl/aux_/integral_wrapper.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\integral_c_fwd.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1318195713 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\bool_trait_undef.hpp
+
+1278253503 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_rvalue_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\ice.hpp
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/detail/ice_not.hpp>
+	<boost/type_traits/detail/ice_eq.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\ice_or.hpp
+	<boost/config.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\ice_not.hpp
+	<boost/config.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\ice_eq.hpp
+	<boost/config.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_volatile.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/detail/cv_traits_impl.hpp>
+	<boost/type_traits/remove_bounds.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\cv_traits_impl.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\remove_bounds.hpp
+	<boost/config.hpp>
+	<cstddef>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/msvc/remove_bounds.hpp>
+	<boost/type_traits/detail/type_trait_def.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1278581278 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\msvc\remove_bounds.hpp
+	<boost/type_traits/msvc/typeof.hpp>
+	<boost/type_traits/is_array.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\msvc\typeof.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_array.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/wrap.hpp>
+	<cstddef>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\type_trait_def.hpp
+	<boost/type_traits/detail/template_arity_spec.hpp>
+	<boost/mpl/aux_/lambda_support.hpp>
+
+1094136097 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\type_trait_undef.hpp
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\false_result.hpp
+	<boost/config.hpp>
+
+1255101362 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_abstract.hpp
+	<boost/type_traits/intrinsics.hpp>
+	<boost/static_assert.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/is_class.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/is_polymorphic.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1327977003 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\static_assert.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1231335886 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_class.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/is_union.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/detail/ice_not.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/is_scalar.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_void.hpp>
+	<boost/type_traits/is_function.hpp>
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_union.hpp
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1314030152 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\remove_cv.hpp
+	<boost/type_traits/broken_compiler_spec.hpp>
+	<boost/type_traits/detail/cv_traits_impl.hpp>
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+	<cstddef>
+	<boost/type_traits/msvc/remove_cv.hpp>
+	<boost/type_traits/detail/type_trait_def.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\broken_compiler_spec.hpp
+	<boost/mpl/aux_/lambda_support.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1278581278 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\msvc\remove_cv.hpp
+	<boost/type_traits/msvc/typeof.hpp>
+	<boost/type_traits/is_volatile.hpp>
+	<boost/type_traits/is_const.hpp>
+	<boost/type_traits/is_pointer.hpp>
+	<boost/type_traits/is_array.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_const.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/detail/cv_traits_impl.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/remove_bounds.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_pointer.hpp
+	<boost/type_traits/is_member_pointer.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/detail/ice_not.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/detail/is_function_ptr_tester.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_member_pointer.hpp
+	<boost/type_traits/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/is_member_function_pointer.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/detail/is_mem_fun_pointer_tester.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_member_function_pointer.hpp
+	<boost/type_traits/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/detail/is_mem_fun_pointer_impl.hpp>
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/is_mem_fun_pointer_tester.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\is_mem_fun_pointer_impl.hpp
+	<boost/config.hpp>
+	<boost/preprocessor/iterate.hpp>
+	<boost/preprocessor/enum_params.hpp>
+	<boost/preprocessor/comma_if.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\iterate.hpp
+	<boost/preprocessor/iteration/iterate.hpp>
+
+1323694364 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\iteration\iterate.hpp
+	<boost/preprocessor/arithmetic/dec.hpp>
+	<boost/preprocessor/arithmetic/inc.hpp>
+	<boost/preprocessor/array/elem.hpp>
+	<boost/preprocessor/array/size.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/slot/slot.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\array\elem.hpp
+	<boost/preprocessor/array/data.hpp>
+	<boost/preprocessor/array/size.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\array\data.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\array\size.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\slot\slot.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/slot/detail/def.hpp>
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\slot\detail\def.hpp
+
+1090896214 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\enum_params.hpp
+	<boost/preprocessor/repetition/enum_params.hpp>
+
+1095087089 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\preprocessor\repetition\enum_params.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/punctuation/comma_if.hpp>
+	<boost/preprocessor/repetition/repeat.hpp>
+
+1144236156 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\is_mem_fun_pointer_tester.hpp
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/preprocessor/iterate.hpp>
+	<boost/preprocessor/enum_params.hpp>
+	<boost/preprocessor/comma_if.hpp>
+
+1144236156 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\is_function_ptr_tester.hpp
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/preprocessor/iterate.hpp>
+	<boost/preprocessor/enum_params.hpp>
+	<boost/preprocessor/comma_if.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_scalar.hpp
+	<boost/type_traits/is_arithmetic.hpp>
+	<boost/type_traits/is_enum.hpp>
+	<boost/type_traits/is_pointer.hpp>
+	<boost/type_traits/is_member_pointer.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_arithmetic.hpp
+	<boost/type_traits/is_integral.hpp>
+	<boost/type_traits/is_float.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_integral.hpp
+	<boost/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_float.hpp
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_enum.hpp
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/add_reference.hpp>
+	<boost/type_traits/is_arithmetic.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/is_convertible.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/is_function.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_class.hpp>
+	<boost/type_traits/is_union.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1278253503 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\add_reference.hpp
+	<boost/type_traits/is_reference.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/type_trait_def.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_convertible.hpp
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_array.hpp>
+	<boost/type_traits/add_reference.hpp>
+	<boost/type_traits/ice.hpp>
+	<boost/type_traits/is_arithmetic.hpp>
+	<boost/type_traits/is_void.hpp>
+	<boost/type_traits/is_abstract.hpp>
+	<boost/type_traits/add_rvalue_reference.hpp>
+	<boost/type_traits/is_function.hpp>
+	<boost/type_traits/remove_reference.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1224059369 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_void.hpp
+	<boost/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1314030152 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\add_rvalue_reference.hpp
+	<boost/config.hpp>
+	<boost/type_traits/is_void.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/detail/type_trait_def.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_function.hpp
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/detail/false_result.hpp>
+	<boost/config.hpp>
+	<boost/type_traits/detail/is_function_ptr_helper.hpp>
+	<boost/type_traits/detail/is_function_ptr_tester.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1128691598 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\is_function_ptr_helper.hpp
+	<boost/type_traits/config.hpp>
+	<boost/preprocessor/iterate.hpp>
+	<boost/preprocessor/enum_params.hpp>
+	<boost/preprocessor/comma_if.hpp>
+
+1294337682 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\remove_reference.hpp
+	<boost/type_traits/broken_compiler_spec.hpp>
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/msvc/remove_reference.hpp>
+	<boost/type_traits/detail/type_trait_def.hpp>
+	<boost/type_traits/detail/type_trait_undef.hpp>
+
+1278581278 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\msvc\remove_reference.hpp
+	<boost/type_traits/msvc/typeof.hpp>
+	<boost/type_traits/is_reference.hpp>
+
+1215767679 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_polymorphic.hpp
+	<boost/type_traits/intrinsics.hpp>
+	<boost/type_traits/is_class.hpp>
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\size_t_trait_def.hpp
+	<boost/type_traits/detail/template_arity_spec.hpp>
+	<boost/type_traits/integral_constant.hpp>
+	<boost/mpl/aux_/lambda_support.hpp>
+	<boost/mpl/size_t.hpp>
+	<cstddef>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\size_t.hpp
+	<boost/mpl/size_t_fwd.hpp>
+	<boost/mpl/aux_/integral_wrapper.hpp>
+
+1223702342 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\mpl\size_t_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+	<boost/config.hpp>
+	<cstddef>
+
+1094136097 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\detail\size_t_trait_undef.hpp
+
+1303730808 c:\silkcircuit\bamboo\includes\boost_1_47_0\boost\type_traits\is_pod.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_void.hpp>
+	<boost/type_traits/is_scalar.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/intrinsics.hpp>
+	<cstddef>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1341497805 source:e:\wills\c++code\bamboo\leviathan\src\main.cpp
+	"main.h"
+
+1341845271 e:\wills\c++code\bamboo\leviathan\src\main.h
+	"../../Bamboo/src/WTBamboo.h"
+	"./Settings/WTGameSettings.h"
+	"./Settings/WTcUserSettings.h"
+	"./Process/WTcPlannedSettings.h"
+	"./Process/WTcMapDisplay.h"
+	"./Process/Settings/WTcDamageSettings.h"
+	"./Process/Combat/WTcDamage.h"
+	"./Process/WTcShield.h"
+	"./Process/WTcBullet.h"
+	"./Process/WTcFighter.h"
+	"./Process/Settings/WTcMissileSettings.h"
+	"./Process/Settings/WTcLeviathanGeneralSettings.h"
+	"./Process/Settings/WTcFoundationClassSettings.h"
+	"./Process/Settings/WTcLeviathanHullSettings.h"
+	"./Process/Settings/WTcLeviathanShieldSettings.h"
+	"./Process/Settings/WTcLeviathanTurretSettings.h"
+	"./Process/Settings/WTcLeviathanProjectileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanBeamTurretSettings.h"
+	"./Process/Settings/WTcLeviathanMissileTurretSettings.h"
+	"./Process/Settings/WTcLeviathanTractorTurretSettings.h"
+	"./Process/Settings/WTcLeviathanSensorSettings.h"
+	"./Process/Settings/WTcLeviathanThrusterSettings.h"
+	"./Process/Settings/WTcLeviathanReactorSettings.h"
+	"./Process/Settings/WTcLeviathanCoolingVentsSettings.h"
+	"./Process/Settings/WTcLeviathanHullMultiHullSettings.h"
+	"./Process/Settings/WTcLeviathanRepairSettings.h"
+	"./Process/Settings/WTcLeviathanSettings.h"
+	"./Process/WTcPlayer.h"
+	"./Process/WTcCore.h"
+	"./Process/Combat/WTcFoundationTracking.h"
+	"./Process/Combat/WTcCombatScreen.h"
+	"./Process/Combat/WTcCombatStatusBox.h"
+	"./Process/Combat/WTcMissile.h"
+	"./Process/Combat/WTcLeviathanGeneral.h"
+	"./Process/Combat/WTcLeviathanHull.h"
+	"./Process/Combat/WTcLeviathanShield.h"
+	"./Process/Combat/WTcLeviathanTurret.h"
+	"./Process/Combat/WTcLeviathanProjectileTurret.h"
+	"./Process/Combat/WTcLeviathanBeamTurret.h"
+	"./Process/Combat/WTcLeviathanMissileTurret.h"
+	"./Process/Combat/WTcLeviathanTractorTurret.h"
+	"./Process/Combat/WTcLeviathanSensor.h"
+	"./Process/Combat/WTcLeviathanThruster.h"
+	"./Process/Combat/WTcLeviathanReactor.h"
+	"./Process/Combat/WTcLeviathanCoolingVents.h"
+	"./Process/Combat/WTcLeviathanHullMultiHull.h"
+	"./Process/Combat/WTcLeviathanRepair.h"
+	"./Process/Combat/WTcLeviathan.h"
+	"./Process/Leviathans/WTcTrainingLeviathan.h"
+	"./Process/Leviathans/WTcGunLeviathanMk1.h"
+	"./Process/Leviathans/WTcBeamLeviathanMk1.h"
+	"./Process/Leviathans/WTcMissileLeviathanMk1.h"
+	"./Process/SelectionScreen/WTcLeviathanSelectionMenu.h"
+	"./Process/Planning/WTcPlanningPlayerGun.h"
+	"./Process/Planning/WTcPlanningMissileRack.h"
+	"./Process/Planning/WTcPlanningComponentBox.h"
+	"./Process/Planning/WTcPlanningComponentTextField.h"
+	"./Process/Planning/WTcPlanningComponent.h"
+	"./Process/Planning/WTcPlanningLeviathan.h"
+	"./Process/Planning/WTcPlanningScreen.h"
+	"./Process/Planning/WTcPlanningHull.h"
+	"./Process/Planning/WTcPlanningReactor.h"
+	"./Process/Planning/WTcPlanningThruster.h"
+	"./Process/Planning/WTcPlanningSensor.h"
+	"./Process/Planning/WTcPlanningShield.h"
+	"./Process/Planning/WTcPlanningVent.h"
+	"./Process/Planning/WTcPlanningArcs.h"
+	"./Process/Planning/WTcPlanningTurret.h"
+	"./Process/Planning/WTcPlanningProjectileTurret.h"
+	"./Process/Planning/WTcPlanningBeamTurret.h"
+	"./Process/Planning/WTcPlanningTractorTurret.h"
+	"./Process/Planning/WTcPlanningMissileTurret.h"
+	"./Process/Planning/WTcPlanningRepair.h"
+	"./Process/WTcAsteroidObject.h"
+	"./Process/WTcExitScreen.h"
+
+1399284924 e:\wills\c++code\bamboo\bamboo\src\wtbamboo.h
+	<stdint.h>
+	<unistd.h>
+	"./WTOsBits.h"
+	"./Global/WTKeyStateDefinitions.h"
+	<windows.h>
+	<glew.h>
+	<glext.h>
+	<wglext.h>
+	<GL/gl.h>
+	<al.h>
+	<alc.h>
+	"./Windows/WTWindowsKeyCodes.h"
+	<GL/glxew.h>
+	<sys/time.h>
+	<X11/keysym.h>
+	<X11/Xlib.h>
+	<X11/X.h>
+	<X11/cursorfont.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"./Windows/WTXWindowsKeyCodes.h"
+	"./Global/WTDefinitions.h"
+	"./Global/WTSettings.h"
+	"./Global/WTSetDefinitions.h"
+	"./Global/IMFDefinitions.h"
+	"./Global/WTcFlags.h"
+	<dirent.h>
+	<typeinfo>
+	<cstdlib>
+	<cmath>
+	<cstring>
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"./Global/GlobalPointers.h"
+	"./Global/log.h"
+	"./Global/CException.h"
+	"./PTL/WTcSingleton.h"
+	"./PTL/WTRadix.h"
+	"./Windows/WTcSync.h"
+	"./Windows/WTcWindow.h"
+	"./PTL/WTLLTemplate.h"
+	"./PTL/WTLimitedList.h"
+	"./PTL/WTcPushPopStack.h"
+	"./Maths/WTc2DVt.h"
+	"./Maths/WTc3DVt.h"
+	"./Maths/WTc4DVt.h"
+	"./Maths/WTMath.h"
+	"./Maths/WTcColors.h"
+	"./Maths/WTcMatrix4.h"
+	"./Maths/WTcDoubleMatrix4.h"
+	"./Maths/WTcMomentum.h"
+	"./Maths/WTcPerspectiveMatrix.h"
+	"./Maths/WTcMatrixStack.h"
+	"./Maths/WTcCameraMatrix4.h"
+	"./Maths/WTcPredictiveTracking.h"
+	"./Maths/WTcSimplexNoise.h"
+	"./Files/WTString.h"
+	"./Maths/WTc2DVtCode.h"
+	"./Maths/WTc3DVtCode.h"
+	"./Maths/WTc4DVtCode.h"
+	"./Engine/WTcSignal.h"
+	"./Engine/WTKernel.h"
+	"./Engine/Process/WTcParentStack.h"
+	"./Engine/Process/WTcProcess.h"
+	"./Engine/WTcFrameRate.h"
+	"./Files/WTvFile.h"
+	"./Files/WTcFileHandler.h"
+	"./Files/WTcFile.h"
+	"./Files/WTcParser.h"
+	"./Files/Misc/WTcReferenceList.h"
+	"./Files/WTcIMFLoader.h"
+	"./Files/Meshes/MeshClasses/WTcVertex.h"
+	"./Files/Meshes/MeshClasses/WTcPlane.h"
+	"./Files/Meshes/MeshClasses/WTcFace.h"
+	"./Files/Meshes/MeshClasses/WTcFullFaceData.h"
+	"./Files/Meshes/MeshClasses/WTcPolygon.h"
+	"./Files/Meshes/MeshClasses/WTcCluster.h"
+	"./Physics/WTcCollisionBase.h"
+	"./Files/CollisionMeshes/WTvCollisionData.h"
+	"./Files/CollisionMeshes/WTcSphereCollision.h"
+	"./Files/CollisionMeshes/WTcMeshCollision.h"
+	"./Files/CollisionMeshes/WTcBeamCollision.h"
+	"./Files/CollisionMeshes/WTcRayCollision.h"
+	"./Files/CollisionMeshes/WTcMeshFileCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollision.h"
+	"./Files/CollisionMeshes/WTcCompoundCollisionFile.h"
+	"./Files/CollisionMeshes/WTcMouseCollision.h"
+	"./Files/Textures/WTcTexture.h"
+	"./Files/Textures/WTcSeamlessTextureClasses.h"
+	"./Files/Textures/WTcTextureGenerator.h"
+	"./Files/Fonts/WTcFont.h"
+	"./Files/Shaders/WTcShader.h"
+	"./Files/Shaders/WTcShaderVariables.h"
+	"./Files/Shaders/WTcUserDefinedShaderVariable.h"
+	"./Files/Shaders/WTcShaderProgram.h"
+	"./Camera/FX/WTcFog.h"
+	"./Camera/WTcRenderOwner.h"
+	"./Camera/WTvRenderObject.h"
+	"./Files/Meshes/WTcMesh.h"
+	"./Files/Meshes/WTcAsteroid.h"
+	"./Files/Meshes/WTcUVSphere.h"
+	"./Files/Meshes/WTcIcoSphere.h"
+	"./Files/Misc/WTcMeshTreeNode.h"
+	"./Files/Misc/WTvMeshTree.h"
+	"./Files/Misc/WTcMeshTree.h"
+	"./Files/Misc/WTcLineArrayData.h"
+	"./Files/Misc/WTcCircleLineData.h"
+	"./Files/Misc/WTcSettingsFile.h"
+	"./Files/Meshes/WTv2DPolygon.h"
+	"./Physics/WTcCollisionObject.h"
+	"./Camera/WTcTextureStack.h"
+	"./Camera/WTcPerspectiveControl.h"
+	"./Camera/WTcCamera.h"
+	"./Camera/WTcExtraViewport.h"
+	"./Camera/WTcRenderPointer.h"
+	"./Camera/WTcRenderObject.h"
+	"./Physics/WTcMouseCollisionObject.h"
+	"./Camera/Nodes/WTcRenderNode.h"
+	"./Camera/Nodes/WTcNodeList.h"
+	"./Camera/Renderable/WTcAttributeData.h"
+	"./Files/Meshes/WTcmLandscape.h"
+	"./Camera/FX/WTcMaterial.h"
+	"./Camera/FX/WTvLight.h"
+	"./Camera/WTcLightHandler.h"
+	"./Camera/FX/WTcLight.h"
+	"./Camera/FX/WTcSpotLight.h"
+	"./Camera/Renderable/WTcImage.h"
+	"./Camera/Renderable/WTcTextureText.h"
+	"./Camera/Renderable/WTcModel.h"
+	"./Camera/Renderable/WTcLandscape.h"
+	"./Camera/Renderable/WTcPoint.h"
+	"./Camera/Renderable/WTcBillBoard.h"
+	"./Camera/Renderable/WTcLine.h"
+	"./Camera/Renderable/WTcLineArray.h"
+	"./Camera/Renderable/WTcParticleSettings.h"
+	"./Camera/Renderable/WTcParticle.h"
+	"./Camera/Renderable/WTcParticleGroup.h"
+	"./Camera/Renderable/WTcBeamMesh.h"
+	"./Camera/Renderable/WTcButton.h"
+	"./Camera/Renderable/WTcStarMap.h"
+	"./Camera/WTcPainter.h"
+	"./Windows/EventHandler/WTcKeyStore.h"
+	"./Windows/EventHandler/WTcKeyToggle.h"
+	"./Windows/EventHandler/WTcMouse.h"
+	"./Windows/EventHandler/WTcEventHandler.h"
+	"./Audio/WTcAudioDevice.h"
+	"./Audio/WTcAudioBuffer.h"
+	"./Audio/WTcAudioObject.h"
+	"./Files/Audio/WTcAudioData.h"
+	"./Files/Audio/WTcSoundObject.h"
+	"./Physics/WTcCollisionList.h"
+	"./Physics/WTcCollisionHandler.h"
+	"./Engine/WTcBase.h"
+	"./Engine/Process/WTcToggleButton.h"
+	"./Engine/Process/WTcMessageFeed.h"
+	"./Engine/Process/WTcTextBoxWidget.h"
+	"./Engine/Process/WTcSliderWidget.h"
+	"./Engine/Process/WTcSelectionWidget.h"
+	"./Engine/Process/WTcSelectionImageWidget.h"
+	"./Networking/WTcNetworkBase.h"
+	"./Networking/WTcP2PClient.h"
+	"./Networking/WTcP2PHost.h"
+
+1354548877 e:\wills\c++code\bamboo\bamboo\src\wtosbits.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\wtkeystatedefinitions.h
+
+1314260274 e:\wills\c++code\bamboo\includes\glew\include\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1319528919 e:\wills\c++code\bamboo\includes\glew\include\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1319528888 e:\wills\c++code\bamboo\includes\glew\include\wglext.h
+	<windows.h>
+
+1165591858 e:\wills\c++code\bamboo\includes\openal 1.1 sdk\include\al.h
+
+1176472968 e:\wills\c++code\bamboo\includes\openal 1.1 sdk\include\alc.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\wtwindowskeycodes.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\wtxwindowskeycodes.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\wtdefinitions.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\global\wtsettings.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\wtsetdefinitions.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\imfdefinitions.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\wtcflags.h
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\globalpointers.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\global\log.h
+	<string>
+	<ostream>
+	<map>
+	<vector>
+	<boost/shared_ptr.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\shared_ptr.hpp
+	<boost/smart_ptr/shared_ptr.hpp>
+
+1300827070 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\shared_ptr.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/shared_ptr_nmt.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/shared_count.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/smart_ptr/detail/sp_convertible.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+	<boost/memory_order.hpp>
+	<algorithm>
+	<functional>
+	<typeinfo>
+	<cstddef>
+	<iosfwd>
+	<ostream>
+	<boost/smart_ptr/detail/operator_bool.hpp>
+
+1310000258 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config.hpp
+	<boost/config/select_compiler_config.hpp>
+	<boost/config/select_stdlib_config.hpp>
+	<boost/config/select_platform_config.hpp>
+	<boost/config/suffix.hpp>
+
+1303719048 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\select_compiler_config.hpp
+
+1303719048 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\select_stdlib_config.hpp
+	<cstddef>
+	<stddef.h>
+	<boost/config/no_tr1/utility.hpp>
+
+1129725520 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1285910384 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\select_platform_config.hpp
+	<boost/config/posix_features.hpp>
+
+1129284986 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\posix_features.hpp
+	<unistd.h>
+
+1303719048 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\suffix.hpp
+	<limits.h>
+	<cstddef>
+	"boost/type.hpp"
+	"boost/non_type.hpp"
+	<typeinfo>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_ptr_nmt.hpp
+	<boost/assert.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/detail/atomic_count.hpp>
+	<memory>
+	<algorithm>
+	<functional>
+	<new>
+
+1297772332 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\assert.hpp
+	<boost/current_function.hpp>
+	<assert.h>
+	<boost/current_function.hpp>
+	<cstdlib>
+	<iostream>
+	<boost/current_function.hpp>
+
+1195999640 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\current_function.hpp
+
+1092316388 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\checked_delete.hpp
+
+1291862420 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\throw_exception.hpp
+	<boost/exception/detail/attribute_noreturn.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config.hpp>
+	<exception>
+	<boost/exception/exception.hpp>
+	<boost/current_function.hpp>
+
+1260988018 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\exception\detail\attribute_noreturn.hpp
+
+1274187238 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\detail\workaround.hpp
+	<boost/config.hpp>
+
+1310262358 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\exception\exception.hpp
+
+1240121870 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc_x86.hpp>
+	<boost/smart_ptr/detail/atomic_count_win32.hpp>
+	<boost/smart_ptr/detail/atomic_count_sync.hpp>
+	<boost/smart_ptr/detail/atomic_count_gcc.hpp>
+	<boost/smart_ptr/detail/atomic_count_pthreads.hpp>
+
+1300827306 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_has_sync.hpp
+
+1240121870 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_pthreads.hpp
+	<pthread.h>
+
+1240121870 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc_x86.hpp
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_win32.hpp
+	<boost/detail/interlocked.hpp>
+
+1310000258 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\detail\interlocked.hpp
+	<boost/config.hpp>
+	<windows.h>
+
+1240121870 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_sync.hpp
+	<ia64intrin.h>
+
+1240121870 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\atomic_count_gcc.hpp
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+
+1129725520 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\config\no_tr1\memory.hpp
+	<memory>
+
+1300826292 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\shared_count.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/throw_exception.hpp>
+	<boost/smart_ptr/bad_weak_ptr.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/sp_counted_impl.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/config/no_tr1/memory.hpp>
+	<functional>
+	<new>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\bad_weak_ptr.hpp
+	<exception>
+
+1238148646 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_pt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_acc_ia64.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_cw_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_ppc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_mips.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_sync.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_gcc_sparc.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_w32.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_nt.hpp>
+	<boost/smart_ptr/detail/sp_counted_base_spin.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_nt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1287944694 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\detail\sp_typeinfo.hpp
+	<boost/config.hpp>
+	<boost/current_function.hpp>
+	<functional>
+	<typeinfo>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_spin.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<boost/smart_ptr/detail/spinlock_pool.hpp>
+
+1300825776 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pool.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/spinlock.hpp>
+	<cstddef>
+
+1300828434 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/sp_has_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_gcc_arm.hpp>
+	<boost/smart_ptr/detail/spinlock_sync.hpp>
+	<boost/smart_ptr/detail/spinlock_w32.hpp>
+	<boost/smart_ptr/detail/spinlock_pt.hpp>
+	<boost/smart_ptr/detail/spinlock_nt.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_pt.hpp
+	<pthread.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_gcc_arm.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1278781626 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\yield_k.hpp
+	<boost/config.hpp>
+	<windows.h>
+	<sched.h>
+	<time.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_sync.hpp
+	<boost/smart_ptr/detail/yield_k.hpp>
+	<ia64intrin.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/smart_ptr/detail/yield_k.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\spinlock_nt.hpp
+	<boost/assert.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_pt.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<pthread.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_x86.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_acc_ia64.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<machine/sys/inline.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_cw_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_ppc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1238148646 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_mips.hpp
+	<boost/detail/sp_typeinfo.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_sync.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<limits.h>
+	<ia64intrin.h>
+
+1259597834 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_gcc_sparc.hpp
+	<boost/detail/sp_typeinfo.hpp>
+	<inttypes.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_base_w32.hpp
+	<boost/detail/interlocked.hpp>
+	<boost/detail/workaround.hpp>
+	<boost/detail/sp_typeinfo.hpp>
+
+1300826292 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_counted_impl.hpp
+	<boost/config.hpp>
+	<boost/checked_delete.hpp>
+	<boost/smart_ptr/detail/sp_counted_base.hpp>
+	<boost/smart_ptr/detail/quick_allocator.hpp>
+	<memory>
+	<cstddef>
+
+1260798260 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\quick_allocator.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lightweight_mutex.hpp>
+	<boost/type_traits/type_with_alignment.hpp>
+	<boost/type_traits/alignment_of.hpp>
+	<new>
+	<cstddef>
+
+1235997452 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lightweight_mutex.hpp
+	<boost/config.hpp>
+	<boost/smart_ptr/detail/lwm_nop.hpp>
+	<boost/smart_ptr/detail/lwm_pthreads.hpp>
+	<boost/smart_ptr/detail/lwm_win32_cs.hpp>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_nop.hpp
+
+1259598302 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_pthreads.hpp
+	<boost/assert.hpp>
+	<pthread.h>
+
+1235996536 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\lwm_win32_cs.hpp
+	<windows.h>
+
+1274880842 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\sp_convertible.hpp
+	<boost/config.hpp>
+
+1259848238 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\memory_order.hpp
+
+1235997922 e:\wills\c++code\bamboo\includes\boost_1_47_0\boost\smart_ptr\detail\operator_bool.hpp
+
+1354548893 e:\wills\c++code\bamboo\bamboo\src\global\cexception.h
+	<string>
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\ptl\wtcsingleton.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\ptl\wtradix.h
+
+1354548894 e:\wills\c++code\bamboo\bamboo\src\windows\wtcsync.h
+
+1354548894 e:\wills\c++code\bamboo\bamboo\src\windows\wtcwindow.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\ptl\wtlltemplate.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\ptl\wtlimitedlist.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\ptl\wtcpushpopstack.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtc2dvt.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtc3dvt.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtc4dvt.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtmath.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtccolors.h
+
+1354548898 e:\wills\c++code\bamboo\bamboo\src\maths\wtcmatrix4.h
+
+1354548898 e:\wills\c++code\bamboo\bamboo\src\maths\wtcdoublematrix4.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtcmomentum.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtcperspectivematrix.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtcmatrixstack.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtccameramatrix4.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtcpredictivetracking.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtcsimplexnoise.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\wtstring.h
+
+1354548896 e:\wills\c++code\bamboo\bamboo\src\maths\wtc2dvtcode.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtc3dvtcode.h
+
+1354548897 e:\wills\c++code\bamboo\bamboo\src\maths\wtc4dvtcode.h
+
+1354548878 e:\wills\c++code\bamboo\bamboo\src\engine\wtcsignal.h
+
+1356646386 e:\wills\c++code\bamboo\bamboo\src\engine\wtkernel.h
+
+1354548878 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcparentstack.h
+
+1356646414 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcprocess.h
+
+1354548877 e:\wills\c++code\bamboo\bamboo\src\engine\wtcframerate.h
+
+1354548878 e:\wills\c++code\bamboo\bamboo\src\files\wtvfile.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\wtcfilehandler.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\wtcfile.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\wtcparser.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtcreferencelist.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\wtcimfloader.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtcvertex.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtcplane.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtcface.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtcfullfacedata.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtcpolygon.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\meshclasses\wtccluster.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\physics\wtccollisionbase.h
+
+1354548884 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtvcollisiondata.h
+
+1354548881 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcspherecollision.h
+
+1354548882 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcmeshcollision.h
+
+1354548882 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcbeamcollision.h
+
+1354548882 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcraycollision.h
+
+1354548882 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcmeshfilecollision.h
+
+1354548881 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtccompoundcollision.h
+
+1354548879 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtccompoundcollisionfile.h
+
+1354548884 e:\wills\c++code\bamboo\bamboo\src\files\collisionmeshes\wtcmousecollision.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\textures\wtctexture.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\textures\wtcseamlesstextureclasses.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\textures\wtctexturegenerator.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\fonts\wtcfont.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\shaders\wtcshader.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\shaders\wtcshadervariables.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\shaders\wtcuserdefinedshadervariable.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\shaders\wtcshaderprogram.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\fx\wtcfog.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtcrenderowner.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtvrenderobject.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtcmesh.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtcasteroid.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtcuvsphere.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtcicosphere.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtcmeshtreenode.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtvmeshtree.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtcmeshtree.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtclinearraydata.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtccirclelinedata.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\misc\wtcsettingsfile.h
+
+1354548887 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtv2dpolygon.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\physics\wtccollisionobject.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtctexturestack.h
+
+1354548890 e:\wills\c++code\bamboo\bamboo\src\camera\wtcperspectivecontrol.h
+
+1357776507 e:\wills\c++code\bamboo\bamboo\src\camera\wtccamera.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtcextraviewport.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtcrenderpointer.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtcrenderobject.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\physics\wtcmousecollisionobject.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\nodes\wtcrendernode.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\nodes\wtcnodelist.h
+
+1357161425 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcattributedata.h
+
+1354548886 e:\wills\c++code\bamboo\bamboo\src\files\meshes\wtcmlandscape.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\fx\wtcmaterial.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\fx\wtvlight.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtclighthandler.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\fx\wtclight.h
+
+1354548892 e:\wills\c++code\bamboo\bamboo\src\camera\fx\wtcspotlight.h
+
+1354548890 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcimage.h
+
+1399313453 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtctexturetext.h
+
+1357840839 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcmodel.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtclandscape.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcpoint.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcbillboard.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcline.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtclinearray.h
+
+1354548890 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcparticlesettings.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcparticle.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcparticlegroup.h
+
+1354548891 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcbeammesh.h
+
+1354638359 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcbutton.h
+
+1354548890 e:\wills\c++code\bamboo\bamboo\src\camera\renderable\wtcstarmap.h
+
+1354548889 e:\wills\c++code\bamboo\bamboo\src\camera\wtcpainter.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\eventhandler\wtckeystore.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\eventhandler\wtckeytoggle.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\eventhandler\wtcmouse.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\windows\eventhandler\wtceventhandler.h
+
+1354548896 e:\wills\c++code\bamboo\bamboo\src\audio\wtcaudiodevice.h
+
+1354548896 e:\wills\c++code\bamboo\bamboo\src\audio\wtcaudiobuffer.h
+
+1354548896 e:\wills\c++code\bamboo\bamboo\src\audio\wtcaudioobject.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\audio\wtcaudiodata.h
+
+1354548885 e:\wills\c++code\bamboo\bamboo\src\files\audio\wtcsoundobject.h
+
+1354548895 e:\wills\c++code\bamboo\bamboo\src\physics\wtccollisionlist.h
+
+1359488702 e:\wills\c++code\bamboo\bamboo\src\physics\wtccollisionhandler.h
+
+1354548877 e:\wills\c++code\bamboo\bamboo\src\engine\wtcbase.h
+
+1354659464 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtctogglebutton.h
+
+1354548878 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcmessagefeed.h
+
+1354638709 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtctextboxwidget.h
+
+1354713163 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcsliderwidget.h
+
+1354638625 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcselectionwidget.h
+
+1354638806 e:\wills\c++code\bamboo\bamboo\src\engine\process\wtcselectionimagewidget.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\networking\wtcnetworkbase.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\networking\wtcp2pclient.h
+
+1354548888 e:\wills\c++code\bamboo\bamboo\src\networking\wtcp2phost.h
+
+1341489353 e:\wills\c++code\bamboo\leviathan\src\settings\wtgamesettings.h
+
+1341499516 e:\wills\c++code\bamboo\leviathan\src\settings\wtcusersettings.h
+
+1337854398 e:\wills\c++code\bamboo\leviathan\src\process\wtcplannedsettings.h
+
+1335952287 e:\wills\c++code\bamboo\leviathan\src\process\wtcmapdisplay.h
+
+1337785751 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcdamagesettings.h
+
+1337785689 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcdamage.h
+
+1337692297 e:\wills\c++code\bamboo\leviathan\src\process\wtcshield.h
+
+1337770660 e:\wills\c++code\bamboo\leviathan\src\process\wtcbullet.h
+
+1337772515 e:\wills\c++code\bamboo\leviathan\src\process\wtcfighter.h
+
+1337775330 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcmissilesettings.h
+
+1339545148 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathangeneralsettings.h
+
+1339544398 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcfoundationclasssettings.h
+
+1336748843 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanhullsettings.h
+
+1336749025 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanshieldsettings.h
+
+1337271925 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanturretsettings.h
+
+1337770784 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanprojectileturretsettings.h
+
+1337689584 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanbeamturretsettings.h
+
+1337689574 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanmissileturretsettings.h
+
+1337272047 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathantractorturretsettings.h
+
+1337689564 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathansensorsettings.h
+
+1336749045 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanthrustersettings.h
+
+1337781982 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanreactorsettings.h
+
+1337689580 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathancoolingventssettings.h
+
+1336748871 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanhullmultihullsettings.h
+
+1337789497 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanrepairsettings.h
+
+1338056734 e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathansettings.h
+
+1341489665 e:\wills\c++code\bamboo\leviathan\src\process\wtcplayer.h
+
+1338559893 e:\wills\c++code\bamboo\leviathan\src\process\wtccore.h
+
+1339589724 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcfoundationtracking.h
+
+1337958800 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtccombatscreen.h
+
+1337699471 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtccombatstatusbox.h
+
+1337769679 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcmissile.h
+
+1339590095 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathangeneral.h
+
+1337776731 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanhull.h
+
+1337776765 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanshield.h
+
+1337604220 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanturret.h
+
+1337776744 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanprojectileturret.h
+
+1337776720 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanbeamturret.h
+
+1337776740 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanmissileturret.h
+
+1337676929 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathantractorturret.h
+
+1337776760 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathansensor.h
+
+1337776771 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanthruster.h
+
+1337781948 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanreactor.h
+
+1337849994 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathancoolingvents.h
+
+1337776736 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanhullmultihull.h
+
+1337791457 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanrepair.h
+
+1339588436 e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathan.h
+
+1338202183 e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtctrainingleviathan.h
+
+1338202143 e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcgunleviathanmk1.h
+
+1338202109 e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcbeamleviathanmk1.h
+
+1338202171 e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcmissileleviathanmk1.h
+
+1338932999 e:\wills\c++code\bamboo\leviathan\src\process\selectionscreen\wtcleviathanselectionmenu.h
+
+1337854687 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningplayergun.h
+
+1337548249 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningmissilerack.h
+
+1338400522 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponentbox.h
+
+1399313128 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponenttextfield.h
+
+1337783821 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponent.h
+
+1399312648 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningleviathan.h
+
+1338400041 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningscreen.h
+
+1337272873 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanninghull.h
+
+1337782707 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningreactor.h
+
+1337272906 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningthruster.h
+
+1337272897 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningsensor.h
+
+1337272901 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningshield.h
+
+1337272916 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningvent.h
+
+1338207683 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningarcs.h
+
+1337272776 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningturret.h
+
+1337297716 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningprojectileturret.h
+
+1337272759 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningbeamturret.h
+
+1337298036 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningtractorturret.h
+
+1337297295 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningmissileturret.h
+
+1337793135 e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningrepair.h
+
+1335891387 e:\wills\c++code\bamboo\leviathan\src\process\wtcasteroidobject.h
+
+1329929441 e:\wills\c++code\bamboo\leviathan\src\process\wtcexitscreen.h
+
+1338558967 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtccombatscreen.cpp
+	"../../main.h"
+
+1338642434 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtccombatstatusbox.cpp
+	"../../main.h"
+
+1339076805 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcdamage.cpp
+	"../../main.h"
+
+1339594757 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcfoundationtracking.cpp
+	"../../main.h"
+
+1339593795 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathan.cpp
+	"../../main.h"
+
+1337776790 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanbeamturret.cpp
+	"../../main.h"
+
+1338053052 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathancoolingvents.cpp
+	"../../main.h"
+
+1339595394 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathangeneral.cpp
+	"../../main.h"
+
+1337776802 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanhull.cpp
+	"../../main.h"
+
+1337776807 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanhullmultihull.cpp
+	"../../main.h"
+
+1337801420 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanmissileturret.cpp
+	"../../main.h"
+
+1337801436 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanprojectileturret.cpp
+	"../../main.h"
+
+1337801550 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanreactor.cpp
+	"../../main.h"
+
+1337801291 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanrepair.cpp
+	"../../main.h"
+
+1337776975 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathansensor.cpp
+	"../../main.h"
+
+1339512779 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanshield.cpp
+	"../../main.h"
+
+1337801749 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanthruster.cpp
+	"../../main.h"
+
+1337691650 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathantractorturret.cpp
+	"../../main.h"
+
+1337776687 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcleviathanturret.cpp
+	"../../main.h"
+
+1337784728 source:e:\wills\c++code\bamboo\leviathan\src\process\combat\wtcmissile.cpp
+	"../../main.h"
+
+1339545221 source:e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcbeamleviathanmk1.cpp
+	"../../main.h"
+
+1339545235 source:e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcgunleviathanmk1.cpp
+	"../../main.h"
+
+1339545246 source:e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtcmissileleviathanmk1.cpp
+	"../../main.h"
+
+1339594420 source:e:\wills\c++code\bamboo\leviathan\src\process\leviathans\wtctrainingleviathan.cpp
+	"../../main.h"
+
+1339074322 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningarcs.cpp
+	"../../main.h"
+
+1337783859 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningbeamturret.cpp
+	"../../main.h"
+
+1339514998 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponent.cpp
+	"../../main.h"
+
+1338641897 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponentbox.cpp
+	"../../main.h"
+
+1337100861 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningcomponenttextfield.cpp
+	"../../main.h"
+
+1337340829 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanninghull.cpp
+	"../../main.h"
+
+1399312635 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningleviathan.cpp
+	"../../main.h"
+
+1338828769 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningmissilerack.cpp
+	"../../main.h"
+
+1337783886 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningmissileturret.cpp
+	"../../main.h"
+
+1338642514 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningplayergun.cpp
+	"../../main.h"
+
+1337783892 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningprojectileturret.cpp
+	"../../main.h"
+
+1337802208 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningreactor.cpp
+	"../../main.h"
+
+1337790048 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningrepair.cpp
+	"../../main.h"
+
+1398609893 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningscreen.cpp
+	"../../main.h"
+
+1337783919 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningsensor.cpp
+	"../../main.h"
+
+1339515050 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningshield.cpp
+	"../../main.h"
+
+1337783931 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningthruster.cpp
+	"../../main.h"
+
+1337783936 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningtractorturret.cpp
+	"../../main.h"
+
+1339068707 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningturret.cpp
+	"../../main.h"
+
+1337783953 source:e:\wills\c++code\bamboo\leviathan\src\process\planning\wtcplanningvent.cpp
+	"../../main.h"
+
+1338933878 source:e:\wills\c++code\bamboo\leviathan\src\process\selectionscreen\wtcleviathanselectionmenu.cpp
+	"../../main.h"
+
+1337782548 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcdamagesettings.cpp
+	"../../main.h"
+
+1341227100 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcfoundationclasssettings.cpp
+	"../../main.h"
+
+1337296829 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanbeamturretsettings.cpp
+	"../../main.h"
+
+1337702026 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathancoolingventssettings.cpp
+	"../../main.h"
+
+1339545131 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathangeneralsettings.cpp
+	"../../main.h"
+
+1336748857 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanhullmultihullsettings.cpp
+	"../../main.h"
+
+1336748836 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanhullsettings.cpp
+	"../../main.h"
+
+1337272149 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanmissileturretsettings.cpp
+	"../../main.h"
+
+1337770918 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanprojectileturretsettings.cpp
+	"../../main.h"
+
+1337782056 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanreactorsettings.cpp
+	"../../main.h"
+
+1337789519 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanrepairsettings.cpp
+	"../../main.h"
+
+1336748984 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathansensorsettings.cpp
+	"../../main.h"
+
+1336749000 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathansettings.cpp
+	"../../main.h"
+
+1336749014 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanshieldsettings.cpp
+	"../../main.h"
+
+1336749038 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanthrustersettings.cpp
+	"../../main.h"
+
+1337681401 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathantractorturretsettings.cpp
+	"../../main.h"
+
+1337271945 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcleviathanturretsettings.cpp
+	"../../main.h"
+
+1337775415 source:e:\wills\c++code\bamboo\leviathan\src\process\settings\wtcmissilesettings.cpp
+	"../../main.h"
+
+1339433372 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcasteroidobject.cpp
+	"../main.h"
+
+1339589587 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcbullet.cpp
+	"../main.h"
+
+1341512945 source:e:\wills\c++code\bamboo\leviathan\src\process\wtccore.cpp
+	"../main.h"
+
+1338642735 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcexitscreen.cpp
+	"../main.h"
+
+1337772529 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcfighter.cpp
+	"../main.h"
+
+1337333626 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcmapdisplay.cpp
+	"../main.h"
+
+1339587846 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcplannedsettings.cpp
+	"../main.h"
+
+1399310641 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcplayer.cpp
+	"../main.h"
+
+1339516072 source:e:\wills\c++code\bamboo\leviathan\src\process\wtcshield.cpp
+	"../main.h"
+
+1341500249 source:e:\wills\c++code\bamboo\leviathan\src\settings\wtcusersettings.cpp
+	"../main.h"
+

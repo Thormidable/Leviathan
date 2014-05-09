@@ -1,0 +1,6 @@
+MouseXAngleSensitivity : -2.00000
+MouseYAngleSensitivity : -2.00000
+PlanningLeviathanRotationSensitivity : 0.01000
+MouseThrustControlFactor : 0.03000
+YawPitchControls : 0
+KeyThrustControl : 0

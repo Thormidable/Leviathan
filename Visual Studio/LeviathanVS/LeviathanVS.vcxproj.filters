@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Process">
+      <UniqueIdentifier>{bbcd365b-8a0b-4d86-ac5d-577668ebaa14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\Combat">
+      <UniqueIdentifier>{3c7dbb35-782e-4677-8012-a862582cbe2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\Leviathans">
+      <UniqueIdentifier>{76a8fdde-5c2a-4299-b4f7-4714b3cb9ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\Planning">
+      <UniqueIdentifier>{70a68772-e392-4c15-b47f-ac7cadb61f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\SelectionScreen">
+      <UniqueIdentifier>{49d2b55d-aeba-4ec4-a66a-a6b7cdb1a320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\Settings">
+      <UniqueIdentifier>{02735fe2-ec8d-41c1-9c80-5644c7ea1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings">
+      <UniqueIdentifier>{4f3889bf-b300-4996-b3c8-cb46373b5cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{a316f5ae-0f1e-4f82-8c1a-63928d390fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process">
+      <UniqueIdentifier>{2f8658ab-526c-4e41-b652-02453556a699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\Combat">
+      <UniqueIdentifier>{08b9798a-22d5-41cb-9273-6a5f9217052f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\Leviathans">
+      <UniqueIdentifier>{5fb60382-a498-457a-94e2-dfd003adae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\Settings">
+      <UniqueIdentifier>{97f6e43b-a360-4c9d-b11a-6c34cdeb7707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\SelectionScreen">
+      <UniqueIdentifier>{92aad5b4-bebd-4a69-b3b1-5c17b3c12aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\Planning">
+      <UniqueIdentifier>{bf4dd789-13c4-46b8-b12d-fe56462ac467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeviathanVS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcAsteroidObject.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcBullet.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcCore.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcExitScreen.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcFighter.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcMapDisplay.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcMessageFeed.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcPlannedSettings.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcPlayer.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\WTcShield.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcCombatScreen.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcCombatStatusBox.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcDamage.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcFoundationTracking.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathan.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanBeamTurret.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanCoolingVents.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanGeneral.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanHull.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanHullMultiHull.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanMissileTurret.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanProjectileTurret.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanReactor.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanRepair.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanSensor.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanShield.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanThruster.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanTractorTurret.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcLeviathanTurret.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Combat\WTcMissile.h">
+      <Filter>Header Files\Process\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcBeamLeviathanMk1.h">
+      <Filter>Header Files\Process\Leviathans</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcGunLeviathanMk1.h">
+      <Filter>Header Files\Process\Leviathans</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcMissileLeviathanMk1.h">
+      <Filter>Header Files\Process\Leviathans</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Leviathans\WTcTrainingLeviathan.h">
+      <Filter>Header Files\Process\Leviathans</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningArcs.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningBeamTurret.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponent.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponentBox.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningComponentTextField.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningHull.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningLeviathan.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningMissileRack.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningMissileTurret.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningPlayerGun.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningProjectileTurret.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningReactor.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningRepair.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningScreen.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningSensor.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningShield.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningThruster.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningTractorTurret.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningTurret.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Planning\WTcPlanningVent.h">
+      <Filter>Header Files\Process\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\SelectionScreen\WTcLeviathanSelectionMenu.h">
+      <Filter>Header Files\Process\SelectionScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcDamageSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcFoundationClassSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanBeamTurretSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanCoolingVentsSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanGeneralSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanHullMultiHullSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanHullSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanMissileTurretSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanProjectileTurretSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanReactorSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanRepairSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanSensorSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanShieldSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanThrusterSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanTractorTurretSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcLeviathanTurretSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Process\Settings\WTcMissileSettings.h">
+      <Filter>Header Files\Process\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Settings\WTcUserSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Settings\WTGameSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeviathanVS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Settings\WTcUserSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcAsteroidObject.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcBullet.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcCore.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcExitScreen.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcFighter.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcMapDisplay.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcMessageFeed.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcPlannedSettings.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcPlayer.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\WTcShield.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningArcs.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningBeamTurret.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponent.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponentBox.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningComponentTextField.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningHull.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningLeviathan.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningMissileRack.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningMissileTurret.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningPlayerGun.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningProjectileTurret.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningReactor.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningRepair.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningScreen.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningSensor.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningShield.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningThruster.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningTractorTurret.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningTurret.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Planning\WTcPlanningVent.cpp">
+      <Filter>Source Files\Process\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\SelectionScreen\WTcLeviathanSelectionMenu.cpp">
+      <Filter>Source Files\Process\SelectionScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcDamageSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcFoundationClassSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanBeamTurretSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanCoolingVentsSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanGeneralSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanHullMultiHullSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanHullSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanMissileTurretSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanProjectileTurretSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanReactorSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanRepairSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanSensorSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanShieldSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanThrusterSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanTractorTurretSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcLeviathanTurretSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Settings\WTcMissileSettings.cpp">
+      <Filter>Source Files\Process\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcBeamLeviathanMk1.cpp">
+      <Filter>Source Files\Process\Leviathans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcGunLeviathanMk1.cpp">
+      <Filter>Source Files\Process\Leviathans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcMissileLeviathanMk1.cpp">
+      <Filter>Source Files\Process\Leviathans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Leviathans\WTcTrainingLeviathan.cpp">
+      <Filter>Source Files\Process\Leviathans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcCombatScreen.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcCombatStatusBox.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcDamage.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcFoundationTracking.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathan.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanBeamTurret.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanCoolingVents.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanGeneral.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanHull.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanHullMultiHull.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanMissileTurret.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanProjectileTurret.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanReactor.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanRepair.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanSensor.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanShield.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanThruster.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanTractorTurret.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcLeviathanTurret.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Process\Combat\WTcMissile.cpp">
+      <Filter>Source Files\Process\Combat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeviathanVS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LeviathanVS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
