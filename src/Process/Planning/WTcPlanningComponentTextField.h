@@ -40,7 +40,7 @@ public:
         mpText->SetVariable("TextColor",cPlanningComponentBox::scTextColor.Color());
         mpText->AddFont(cPlanningComponentBox::mpPlanningFont);
         mpText->Text(StartText);
-        mpText->Add(mcData,2);
+        mpText->Add(mcData);
         mpText->Size(DATA_ITEM_HEIGHT);
 		mpText->Transparency(3);
     };

@@ -613,7 +613,7 @@ cLeviathanPlanet::cLeviathanPlanet(cRenderNode *lpNode,float lfDist)
     ++miMoons;
     mpMoons=new cRenderNode*[miMoons];
     mpMoonSpeeds=new float[miMoons];
-	mpMoonModels=new cUVSphere*[miMoons];
+	mpMoonModels=new cIcoSphere*[miMoons];
     float lfMoonDist=0.0f;
     for(uint8 liCount=0;liCount<miMoons;++liCount)
     {
