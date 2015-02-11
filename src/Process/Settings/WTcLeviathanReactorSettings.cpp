@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanReactorSettings::cLeviathanReactorSettings(cLeviathanComponentSettings *lpSettings,string lsMesh,string lsCollision,float lfBaseHeat, float lfMaxPower,float lfDamageHeatFactor,double lfOverload) : cLeviathanComponentSettings(lpSettings)

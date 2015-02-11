@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningHull::cPlanningHull(cLeviathanHullSettings *lpSettings) : cPlanningComponent(lpSettings)

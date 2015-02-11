@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanMissileTurret::cLeviathanMissileTurret(cLeviathanMissileTurretSettings *lpSettings) : cLeviathanTurret(lpSettings)

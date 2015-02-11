@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cParticleHandler *cLeviathan::mpLeviathanParticleHandler=0;

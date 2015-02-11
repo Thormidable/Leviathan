@@ -1,5 +1,5 @@
 
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cChaffCharge *cMissile::spChaffDeployed=0;

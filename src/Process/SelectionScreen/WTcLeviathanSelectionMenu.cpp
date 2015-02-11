@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 #define STAR_SIZE_BASE 200.0f
@@ -473,13 +473,13 @@ cLeviathanSolarSystemControl::cLeviathanSolarSystemControl(cRGBA lcStarCol,cRGBA
     mfFrame=0.0f;
     mpStar->SetUniformPointer("Frame",&mfFrame);
     mpStar->SetUniform("pParam",c4DVf(17,1,34,7).v);
-
+	
     mpStar->SetUniform("Bb_BaseColor",lcStarCol.Color());
     lcStarCol=cLeviathanArray::CoronaColor(lcStarCol);
     mpStar->SetUniform("Bb_CoronaColor",lcCoronaCol.Color());
     mpStar->Position(mpCentre->Position());
     mpStar->Transparency(2);
-
+	
     mpLight=_CREATE(cLight);
 	mpLight->Ambient(0.2f,0.2f,0.2f,1.0f);
 	mpLight->Specular(1.0f,1.0f,1.0f,1.0f);
@@ -513,40 +513,40 @@ cLeviathanSolarSystemControl::cLeviathanSolarSystemControl(cRGBA lcStarCol,cRGBA
 
 void cLeviathanSolarSystemControl::Run()
 {
+	
+	mfFrame+=0.0004f;
 
-     mfFrame+=0.0004f;
+	_CAMERA->RotateY(_MOUSE->XSpeed()*0.06f);
+	_CAMERA->RotateX(_MOUSE->YSpeed()*0.06f);
 
-    _CAMERA->RotateY(_MOUSE->XSpeed()*0.06f);
-    _CAMERA->RotateX(_MOUSE->YSpeed()*0.06f);
-
-    if(KEY_ENTER)
-    {
-        if(!mbEnterKey)
-        {
-            _KILL(this);
-            cLeviathanArray::Instance()->miPlanet=miSelected;
-            cLeviathanArray::Instance()->GenerateGame();
-        }
-    }
-    else{mbEnterKey=false;}
-
-    if(KEY_BACKSPACE)
+	if(KEY_ENTER)
 	{
-		if(!mbBackKey)
-		{
-			_KILL(this);
-			cLeviathanArray::Instance()->StarMap();
-		}
+	if(!mbEnterKey)
+	{
+	_KILL(this);
+	cLeviathanArray::Instance()->miPlanet=miSelected;
+	cLeviathanArray::Instance()->GenerateGame();
+	}
+	}
+	else{mbEnterKey=false;}
+
+	if(KEY_BACKSPACE)
+	{
+	if(!mbBackKey)
+	{
+	_KILL(this);
+	cLeviathanArray::Instance()->StarMap();
+	}
 	}
 	else{mbBackKey=false;}
 
 	if(KEY_SPACE)
 	{
-	    _CAMERA->PointAt(mpCentre->Position());
+	_CAMERA->PointAt(mpCentre->Position());
 	}
 
-    if(mpToggles[0].UpdateOnToggle(KEY_LEFT)) SelectUp();
-    if(mpToggles[1].UpdateOnToggle(KEY_RIGHT)) SelectDown();
+	if(mpToggles[0].UpdateOnToggle(KEY_LEFT)) SelectUp();
+	if(mpToggles[1].UpdateOnToggle(KEY_RIGHT)) SelectDown();
 
 }
 
@@ -583,19 +583,19 @@ cLeviathanPlanet::cLeviathanPlanet(cRenderNode *lpNode,float lfDist)
     mfPlanetOrbitSpeed=RANDOM_NUMBER*0.001f+0.0005f;
     mfPlanetRotateSpeed=RANDOM_NUMBER*0.004f+0.002f;
 
-    cLineArray *lpOrbit=_CREATE(cLineArray(mpCentre));
-    lpOrbit->Shader("SetUniformColorProgram");
-    lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
-    lpOrbit->Data(_CREATE(cCircleLineData(lfDist)));
-	lpOrbit->Position(0.0f,-400.0f,0.0f);
-	lpOrbit->Width(2.0f);
+    //cLineArray *lpOrbit=_CREATE(cLineArray(mpCentre));
+ //   lpOrbit->Shader("SetUniformColorProgram");
+ //   lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
+ //   lpOrbit->Data(_CREATE(cCircleLineData(lfDist)));
+	//lpOrbit->Position(0.0f,-400.0f,0.0f);
+	//lpOrbit->Width(2.0f);
 
-	cLine *lpLine=_CREATE(cLine(mpCentre));
-	lpLine->Shader("SetUniformColorProgram");
-    lpLine->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
-	lpLine->Position(0.0f,0.0f,lfDist);
-	lpLine->Vector(0.0f,-400.0f,0.0f);
-	lpLine->Width(2.0f);
+	//cLine *lpLine=_CREATE(cLine(mpCentre));
+	//lpLine->Shader("SetUniformColorProgram");
+ //   lpLine->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
+	//lpLine->Position(0.0f,0.0f,lfDist);
+	//lpLine->Vector(0.0f,-400.0f,0.0f);
+	//lpLine->Width(2.0f);
 
 
     mpCursor=_CREATE(cImage(gp2DCamera));
@@ -609,55 +609,55 @@ cLeviathanPlanet::cLeviathanPlanet(cRenderNode *lpNode,float lfDist)
 
 
 
-    miMoons=RANDOM_NUMBER*2;
-    ++miMoons;
-    mpMoons=new cRenderNode*[miMoons];
-    mpMoonSpeeds=new float[miMoons];
+	miMoons=RANDOM_NUMBER*2;
+	++miMoons;
+	mpMoons=new cRenderNode*[miMoons];
+	mpMoonSpeeds=new float[miMoons];
 	mpMoonModels=new cIcoSphere*[miMoons];
-    float lfMoonDist=0.0f;
-    for(uint8 liCount=0;liCount<miMoons;++liCount)
-    {
-            mpMoons[liCount]=_CREATE(cRenderNode(mpCentre));
+	float lfMoonDist=0.0f;
+	for(uint8 liCount=0;liCount<miMoons;++liCount)
+	{
+		mpMoons[liCount]=_CREATE(cRenderNode(mpCentre));
 
-            mpMoons[liCount]->Position(0.0f,0.0f,lfDist);
-            mpMoons[liCount]->RotateY(RANDOM_NUMBER*WT_PI*2);
+		mpMoons[liCount]->Position(0.0f,0.0f,lfDist);
+		mpMoons[liCount]->RotateY(RANDOM_NUMBER*WT_PI*2);
 
-            cModel *lpMoon=_CREATE(cModel(mpMoons[liCount]));
-            lpMoon->Shader("NormalMappingProgram");
-            lpMoon->AddTexture("PerlinNoise");
-            lpMoon->AddTexture("PerlinNoise");
-            mpMoonModels[liCount]=_CREATE(cIcoSphere(cCore::mpIcoSphereBase));
-            mpMoonModels[liCount]->Radius(MOON_SIZE_BASE+MOON_SIZE_VARIANCE*RANDOM_NUMBER);
-	        lpMoon->Mesh(mpMoonModels[liCount]);
+		cModel *lpMoon=_CREATE(cModel(mpMoons[liCount]));
+		lpMoon->Shader("NormalMappingProgram");
+		lpMoon->AddTexture("PerlinNoise");
+		lpMoon->AddTexture("PerlinNoise");
+		mpMoonModels[liCount]=_CREATE(cIcoSphere(cCore::mpIcoSphereBase));
+		mpMoonModels[liCount]->Radius(MOON_SIZE_BASE+MOON_SIZE_VARIANCE*RANDOM_NUMBER);
+		lpMoon->Mesh(mpMoonModels[liCount]);
 
-            lpMoon->SetVariable("Material_diffuse",cRGBA(0.8f,0.8f,0.8f,1.0f).Color());
-            lpMoon->SetVariable("Material_ambient",cRGBA(0.2f,0.2f,0.2f,1.0f).Color());
+		lpMoon->SetVariable("Material_diffuse",cRGBA(0.8f,0.8f,0.8f,1.0f).Color());
+		lpMoon->SetVariable("Material_ambient",cRGBA(0.2f,0.2f,0.2f,1.0f).Color());
 
-            cTBNVectors *lpTBN=new cTBNVectors(mpMoonModels[liCount]);
-            lpTBN->LinkToShader(lpMoon);
+		cTBNVectors *lpTBN=new cTBNVectors(mpMoonModels[liCount]);
+		lpTBN->LinkToShader(lpMoon);
 
-            mpMoonSpeeds[liCount]=RANDOM_NUMBER*0.003f+0.003f;
+		mpMoonSpeeds[liCount]=RANDOM_NUMBER*0.003f+0.003f;
 
-            lfMoonDist+=MOON_ORBIT_BASE+RANDOM_NUMBER*MOON_ORBIT_VARIANCE;
-            lpMoon->Position(0.0f,0.0f,lfMoonDist);
+		lfMoonDist+=MOON_ORBIT_BASE+RANDOM_NUMBER*MOON_ORBIT_VARIANCE;
+		lpMoon->Position(0.0f,0.0f,lfMoonDist);
 
-				lpLine=_CREATE(cLine(mpMoons[liCount]));
-				lpLine->Shader("SetUniformColorProgram");
-    			lpLine->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
-				lpLine->Position(0.0f,0.0f,lfMoonDist);
-				lpLine->Vector(0.0f,-400.0f,0.0f);
-				lpLine->Width(2.0f);
+		//lpLine=_CREATE(cLine(mpMoons[liCount]));
+		//lpLine->Shader("SetUniformColorProgram");
+		//lpLine->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
+		//lpLine->Position(0.0f,0.0f,lfMoonDist);
+		//lpLine->Vector(0.0f,-400.0f,0.0f);
+		//lpLine->Width(2.0f);
 
-            lpOrbit=_CREATE(cLineArray(mpMoons[liCount]));
-            lpOrbit->Shader("SetUniformColorProgram");
-            lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
-            lpOrbit->Data(_CREATE(cCircleLineData(lfMoonDist)));
-			lpOrbit->Position(0.0f,-400.0f,0.0f);
-			lpOrbit->Width(2.0f);
+		//lpOrbit=_CREATE(cLineArray(mpMoons[liCount]));
+		//lpOrbit->Shader("SetUniformColorProgram");
+		//lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
+		//lpOrbit->Data(_CREATE(cCircleLineData(lfMoonDist)));
+		//lpOrbit->Position(0.0f,-400.0f,0.0f);
+		//lpOrbit->Width(2.0f);
 
-    }
+	}
 
-    mbSelected=false;
+   //mbSelected=false;
 
 }
 
@@ -679,8 +679,14 @@ void cLeviathanPlanet::Run()
 
         c3DVf lfTemp=mpPlanet->GetScreenPosition();
 		//c3DVf lfTemp(0.0,0.0,0.0);
-        if(lfTemp[2]>0.0f) {_WAKE(mpCursor); mpCursor->Position(lfTemp.v);}
-        else {_SLEEP(mpCursor);}
+        if(lfTemp[2]>0.0f) 
+		{
+			_WAKE(mpCursor); mpCursor->Position(lfTemp.v);
+		}
+        else 
+		{
+			_SLEEP(mpCursor);
+		}
     }
     else {_SLEEP(mpCursor);}
 }

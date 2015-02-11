@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningTractorTurret::cPlanningTractorTurret(cLeviathanTractorTurretSettings *lpSettings) : cPlanningTurret(lpSettings)

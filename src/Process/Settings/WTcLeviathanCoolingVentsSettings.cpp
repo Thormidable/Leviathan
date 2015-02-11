@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanVentSettings::cLeviathanVentSettings(cLeviathanComponentSettings *lpSettings,string lsMesh,string lsCollision,float lfOpenAngle,float lfOpenRate, float lfBaseCool,float lfMaxCool) : cLeviathanComponentSettings(lpSettings)

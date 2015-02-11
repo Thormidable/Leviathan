@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanShield::cLeviathanShield(cLeviathanShieldSettings *lpSettings) : cLeviathanComponent(lpSettings)

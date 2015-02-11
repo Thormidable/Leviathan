@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
    cLeviathanProjectileTurretSettings::cLeviathanProjectileTurretSettings(cLeviathanTurretSettings *lpSettings,float lfSpeed,cDamage lfDamage) : cLeviathanTurretSettings(lpSettings)

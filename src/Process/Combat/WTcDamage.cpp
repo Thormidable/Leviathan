@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 float cDamage::mfFinalDamage=0.0f;

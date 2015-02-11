@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 cKeyToggle cPlanningLeviathan::mcKeyToggles[28];
 

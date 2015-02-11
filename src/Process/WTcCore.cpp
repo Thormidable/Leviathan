@@ -1,5 +1,5 @@
 
-#include "stdafx.h"
+
 #include "../main.h"
 
 cIcoSphere *cCore::mpIcoSphereBase=0;

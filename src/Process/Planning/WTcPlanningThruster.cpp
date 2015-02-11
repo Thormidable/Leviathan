@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningThruster::cPlanningThruster(cLeviathanThrusterSettings *lpSettings) : cPlanningComponent(lpSettings)

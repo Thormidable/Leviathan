@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cDamageSettings::cDamageSettings(float lfDamage,uint8 liType)

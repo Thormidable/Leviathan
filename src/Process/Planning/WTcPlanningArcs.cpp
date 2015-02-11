@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cUVSphere *cPlanningArcs::gpArcBase=0;

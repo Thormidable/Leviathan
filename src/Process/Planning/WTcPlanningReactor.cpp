@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningReactor::cPlanningReactor(cLeviathanReactorSettings *lpSettings) : cPlanningComponent(lpSettings)

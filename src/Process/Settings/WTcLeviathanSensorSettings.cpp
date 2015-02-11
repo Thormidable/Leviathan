@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanSensorSettings::cLeviathanSensorSettings(cLeviathanComponentSettings *lpSettings,string lsMesh,string lsCollision,float lfBaseDegredation,float lfSensorDegredation) : cLeviathanComponentSettings(lpSettings)

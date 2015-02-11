@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanReactor::cLeviathanReactor(cLeviathanReactorSettings *lpSettings) : cLeviathanComponent(lpSettings)

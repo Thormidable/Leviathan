@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanRepair::cLeviathanRepair(cLeviathanRepairSettings *lpSettings) : cLeviathanComponent(lpSettings)

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../main.h"
 
 cShield::cShield(cModel *lpGenerator,cLeviathanShieldSettings *lpSettings)

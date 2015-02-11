@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanHullSettings::cLeviathanHullSettings(cLeviathanComponentSettings *lpSettings,string lsMesh, string lsCollision) : cLeviathanComponentSettings(lpSettings)

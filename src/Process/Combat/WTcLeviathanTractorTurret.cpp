@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanTractorBeam::cLeviathanTractorBeam(cLeviathanTractorTurretSettings *lpSettings) : cLeviathanBeamTurret(lpSettings)

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 vRenderNode *cPlanningComponent::ComponentNode(){return mpComponentNode;};

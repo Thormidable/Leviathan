@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 //#include "../main.h"
 //
 //cMessageFeedItem::cMessageFeedItem(string lsMessage,float lfDelay,cFont *lpFont,cRGBA lcColor)

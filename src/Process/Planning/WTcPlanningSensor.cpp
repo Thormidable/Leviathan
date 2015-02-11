@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningSensor::cPlanningSensor(cLeviathanSensorSettings *lpSettings) : cPlanningComponent(lpSettings)

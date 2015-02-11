@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanRepairSettings::cLeviathanRepairSettings(cLeviathanComponentSettings *lpSettings,string lsMesh, string lsCollision,float lfRepairRate,double lfRepairLimit) : cLeviathanComponentSettings(lpSettings)

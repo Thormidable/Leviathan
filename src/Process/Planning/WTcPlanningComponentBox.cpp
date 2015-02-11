@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cTexture *cPlanningComponentBox::mpBoxTexture=0;

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 void cBeamLeviathanMk1::CreateData()

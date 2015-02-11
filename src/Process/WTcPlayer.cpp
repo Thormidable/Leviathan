@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../main.h"
 
 vMissileSettings **cPlayer::mpMissileSettings=0;

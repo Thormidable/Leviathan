@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningTurret::cPlanningTurret(cLeviathanTurretSettings *lpSettings) : cPlanningComponent(lpSettings)

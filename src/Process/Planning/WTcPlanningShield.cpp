@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningShield::cPlanningShield(cLeviathanShieldSettings *lpSettings) : cPlanningComponent(lpSettings)

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cChaffSettings::cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSpread,float lfSize,float lfDelay,cRGBA lcColor,cMomentum *lpCurSpeed)

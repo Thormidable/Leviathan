@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cLeviathanMultiHullComponent::cLeviathanMultiHullComponent()

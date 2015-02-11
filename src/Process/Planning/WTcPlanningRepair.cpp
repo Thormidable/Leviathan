@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "../../main.h"
 
 cPlanningRepair::cPlanningRepair(cLeviathanRepairSettings *lpSettings) : cPlanningComponent(lpSettings)
