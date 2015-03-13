@@ -118,7 +118,7 @@ bool cLeviathanThruster::UserSignal(SIGNAL lsSignal,void *lpData)
 
 void cLeviathanThruster::ReduceHealth()
 {
-    mfHealth-=cDamage::mfFinalDamage;
+    mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
     mfMaxThrust=mfStartMaxThrust*mfHealth*mfMaxHealthInv;
     //If the damage is more than the fighter can take kill it.
     //This will call Stop()

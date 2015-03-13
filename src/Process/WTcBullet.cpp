@@ -40,10 +40,11 @@ mfLife=70.0f;
  mpBullet->Equals(lpMatrix);
  //Offset the Bullets start position by the distance lfDist
  mpBullet->Advance(lfOffset);
+ mpBullet->Advance(lfSpeed*_TIME_PER_FRAME);
 
 
 
- c3DVf MyVector(0.0f,0.0f,-lfSpeed*3);
+ c3DVf MyVector(0.0f,0.0f,-lfSpeed*_TIME_PER_FRAME);
  mpBullet->Vector(MyVector.v);
 
 
@@ -140,10 +141,10 @@ void cBullet::Run()
     delete lpList;
 
     //Advance the bullet by its speed.
-    mpBullet->AdvanceZ(mfSpeed);
+    mpBullet->AdvanceZ(mfSpeed*_TIME_PER_FRAME);
 
     //Reduce it's life (duration of existence based on time alive)
-    mfLife-=mfSpeed;
+    mfLife-=mfSpeed*_TIME_PER_FRAME;
     //One the bullet has used up it's duration kill it.
     if(mfLife<0.0f) _KILL_THIS();
 }

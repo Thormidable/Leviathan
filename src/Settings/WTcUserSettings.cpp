@@ -4,8 +4,8 @@
 
 
 float cUserSettings::mfMouseThrustSensitivity=0.0f;
-float cUserSettings::mfMouseXAngleSensitivity=1.0f;
-float cUserSettings::mfMouseYAngleSensitivity=-1.0f;
+float cUserSettings::mfMouseXAngleSensitivity=100.0f;
+float cUserSettings::mfMouseYAngleSensitivity=-100.0f;
 float cUserSettings::mfPlanningLeviathanRotationSensitivity=0.06f;
 bool cUserSettings::mbYawPitchControls=1;
 bool cUserSettings::mbKeyThrustControl=1;

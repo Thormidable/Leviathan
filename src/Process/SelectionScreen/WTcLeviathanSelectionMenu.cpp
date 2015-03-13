@@ -516,8 +516,8 @@ void cLeviathanSolarSystemControl::Run()
 	
 	mfFrame+=0.0004f;
 
-	_CAMERA->RotateY(_MOUSE->XSpeed()*0.06f);
-	_CAMERA->RotateX(_MOUSE->YSpeed()*0.06f);
+	_CAMERA->RotateY(_MOUSE->XSpeed()*0.6f*_TIME_PER_FRAME);
+	_CAMERA->RotateX(_MOUSE->YSpeed()*0.6f*_TIME_PER_FRAME);
 
 	if(KEY_ENTER)
 	{
@@ -580,12 +580,13 @@ cLeviathanPlanet::cLeviathanPlanet(cRenderNode *lpNode,float lfDist)
  	cTBNVectors *lpTBN=new cTBNVectors(lpTemp);
  	lpTBN->LinkToShader(mpPlanet);
 
-    mfPlanetOrbitSpeed=RANDOM_NUMBER*0.001f+0.0005f;
-    mfPlanetRotateSpeed=RANDOM_NUMBER*0.004f+0.002f;
+    mfPlanetOrbitSpeed=RANDOM_NUMBER*0.01f+0.005f;
+    mfPlanetRotateSpeed=RANDOM_NUMBER*0.04f+0.02f;
 
-    //cLineArray *lpOrbit=_CREATE(cLineArray(mpCentre));
- //   lpOrbit->Shader("SetUniformColorProgram");
- //   lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
+
+    cLineArray *lpOrbit=_CREATE(cLineArray(mpCentre));
+  //  lpOrbit->Shader("SetUniformColorProgram");
+  //  lpOrbit->SetUniform("ModelColor",cRGBA(0.0f,0.6f,0.0f,1.0f).Color());
  //   lpOrbit->Data(_CREATE(cCircleLineData(lfDist)));
 	//lpOrbit->Position(0.0f,-400.0f,0.0f);
 	//lpOrbit->Width(2.0f);
@@ -666,11 +667,11 @@ cLeviathanPlanet::cLeviathanPlanet(cRenderNode *lpNode,float lfDist)
 void cLeviathanPlanet::Run()
 {
 
-    mpCentre->RotateY(mfPlanetOrbitSpeed);
-    mpPlanet->RotateY(mfPlanetRotateSpeed);
+    mpCentre->RotateY(mfPlanetOrbitSpeed*_TIME_PER_FRAME);
+    mpPlanet->RotateY(mfPlanetRotateSpeed*_TIME_PER_FRAME);
     for(uint8 liCount=0;liCount<miMoons;++liCount)
     {
-        mpMoons[liCount]->RotateY(mpMoonSpeeds[liCount]);
+        mpMoons[liCount]->RotateY(mpMoonSpeeds[liCount]*_TIME_PER_FRAME);
     }
 
 

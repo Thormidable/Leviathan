@@ -44,9 +44,9 @@ void cLeviathanRepair::Repair(cLeviathanComponent *lpComp)
 {
 	if(mfRepairLimit>0.0f)
 	{
-		cDamage::mfFinalDamage=-mfCurrentRepairRate;
+		cDamage::mfFinalDamage=-mfCurrentRepairRate*_TIME_PER_FRAME;
 		lpComp->ReduceHealth();
-		mfRepairLimit-=mfRepairRate;
+		mfRepairLimit-=mfRepairRate*_TIME_PER_FRAME;
 	}
 };
 
@@ -74,7 +74,7 @@ bool cLeviathanRepair::UserSignal(SIGNAL lsSignal,void *lpData)
 
 void cLeviathanRepair::ReduceHealth()
 {
-    mfHealth-=cDamage::mfFinalDamage;
+    mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
     //If the damage is more than the fighter can take kill it.
     //This will call Stop()
     if(mfHealth<0.0f)

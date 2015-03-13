@@ -45,9 +45,9 @@ void cLeviathanProjectileTurret::Run()
 
       if(mpReactor)
       {
-        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfReloadState-=mfReloadRate;
+        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfReloadState-=mfReloadRate*_TIME_PER_FRAME;
       }
-      else{ mfReloadState-=mfReloadRate;}
+      else{ mfReloadState-=mfReloadRate*_TIME_PER_FRAME;}
 
     }
  }

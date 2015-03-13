@@ -1,6 +1,6 @@
 
 #include "../../main.h"
-cCombatScreen::cCombatScreen(cLeviathanSettings *mpLevSettings)
+cCombatScreen::cCombatScreen(cLeviathanSettings *mpLevSettings,float lfDistance)
 {
 	cLeviathanArray::Instance()->ResetForCombat();
 
@@ -32,7 +32,7 @@ _CAMERA->UpdateProjectionMatrix();
 	mbSoundKey=TOGGLE_SOUND;
 
 
-    _CREATE(cPlayer(_CAMERA));
+    _CREATE(cPlayer(_CAMERA,lfDistance));
     mpMap->Follow(gpPlayer->mpHull);
 
     _CREATE(cLeviathan(mpLevSettings));
@@ -54,10 +54,10 @@ void cCombatScreen::Run()
 
 	if(!gpPlayer)
 	{
-	    _CAMERA->RotateZ(_MOUSE->XSpeed()*0.003f);
-	    _CAMERA->RotateX(_MOUSE->YSpeed()*0.003f);
-	    if(_MOUSE->Left()) _CAMERA->Advance(0.1f);
-	    if(_MOUSE->Right()) _CAMERA->Advance(-0.1f);
+	    _CAMERA->RotateZ(_MOUSE->XSpeed()*0.03f*_TIME_PER_FRAME);
+	    _CAMERA->RotateX(_MOUSE->YSpeed()*0.03f*_TIME_PER_FRAME);
+	    if(_MOUSE->Left()) _CAMERA->Advance(1.0f*_TIME_PER_FRAME);
+	    if(_MOUSE->Right()) _CAMERA->Advance(-1.0f*_TIME_PER_FRAME);
 	}
 };
 

@@ -12,7 +12,7 @@ cMapDisplayObject *mpMapDisp;
  cCollisionObject *mpHullColl;
  cGameTarget mpTarget;
  cMissileSettings *mpSettings;
- cMomentum *mpMomentum;
+ cMomentumFRI *mpMomentum;
  cImage *mpReticule;
 
  float mf180Delay;

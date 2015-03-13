@@ -14,7 +14,7 @@ class cCombatScreen : public cProcess
 
 public:
 
- cCombatScreen(cLeviathanSettings *mpLevSettings);
+ cCombatScreen(cLeviathanSettings *mpLevSettings,float lfDistance = 8000.0f);
  void Run();
  void Stop();
 

@@ -15,7 +15,7 @@ cAsteroidObject::cAsteroidObject(uint32 liObjects)
 
     mpMapDisplays=new cMapDisplayObject*[liObjects];
     mpModel=new cModel*[liObjects];
-    mpMomentum=new cMomentum*[liObjects];
+    mpMomentum=new cMomentumFRI*[liObjects];
 
 
 miObjects=liObjects;
@@ -38,7 +38,7 @@ for(liObjects=0;liObjects<miObjects;++liObjects)
     mpModel[liObjects]->RotateY(ZEROED_RANDOM_NUMBER*WT_PI);
     mpModel[liObjects]->RotateZ(ZEROED_RANDOM_NUMBER*WT_PI);
 
-    mpMomentum[liObjects]=new cMomentum(mpModel[liObjects]);
+    mpMomentum[liObjects]=new cMomentumFRI(mpModel[liObjects]);
     mpMomentum[liObjects]->Thrust(ZEROED_RANDOM_NUMBER*100.0f,ZEROED_RANDOM_NUMBER*100.0f,ZEROED_RANDOM_NUMBER*100.0f);
     mpMomentum[liObjects]->ThrustAngle(150.0*ZEROED_RANDOM_NUMBER,150.0*ZEROED_RANDOM_NUMBER,150.0*ZEROED_RANDOM_NUMBER);
 

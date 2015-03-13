@@ -48,7 +48,7 @@ void cLeviathanHull::Run()
 
 void cLeviathanHull::ReduceHealth()
 {
-    mfHealth-=cDamage::mfFinalDamage;
+    mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
    //If the damage is more than the fighter can take kill it.
     //This will call Stop()
     if(mfHealth<0.0f)

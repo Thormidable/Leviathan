@@ -55,7 +55,7 @@ public:
 	float mfBulletReloadTime;
 
     static cMatrix4 HullMatrix;
-    static cMomentum *lpMomentum;
+    static cMomentumFRI *lpMomentum;
 
 
 	cPlayerShield *mpShields[8];
@@ -84,7 +84,7 @@ public:
 
 
 public:
-	cPlayer(cCamera *lpCamera);
+	cPlayer(cCamera *lpCamera,float lfDistance = 8000.0f);
 	void Run();
 	void Stop();
 

@@ -4,7 +4,7 @@
 class cAsteroidObject : public cProcess
 {
 public:
- cMomentum **mpMomentum;
+ cMomentumFRI **mpMomentum;
  cModel **mpModel;
  cMapDisplayObject **mpMapDisplays;
  uint32 miObjects;

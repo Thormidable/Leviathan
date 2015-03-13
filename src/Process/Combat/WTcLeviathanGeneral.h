@@ -44,7 +44,7 @@ protected:
  vArmour *mpArmour;
 public:
  cLeviathanComponent *mpTreeBase;
- cMomentum *mpMoment;
+ cMomentumFRI *mpMoment;
  cLeviathanReactor *mpReactor;
 
 cLeviathanComponent(cLeviathanComponentSettings *lpSettings);
@@ -55,7 +55,7 @@ bool UserSignal(SIGNAL lsSignal,void *lpData);
 
     virtual void ReduceHealth()=0;
     void SignalDeath();
-    cMomentum *Momentum();
+    cMomentumFRI *Momentum();
 	void PlayTargetedNoise();
 	void FlameTrail(cDamage *lfCentre);
 

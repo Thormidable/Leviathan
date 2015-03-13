@@ -90,7 +90,7 @@ bool cLeviathanSensor::UserSignal(SIGNAL lsSignal,void *lpData)
 void cLeviathanSensor::ReduceHealth()
 {
 
-            mfHealth-=cDamage::mfFinalDamage;
+            mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
             //If the damage is more than the fighter can take kill it.
             //This will call Stop()
 			mfSensorDegredation=(1.0f-mfHealth*mfMaxHealthInv)*mfMaxSensorDegredation+mfSensorBaseDegredation;

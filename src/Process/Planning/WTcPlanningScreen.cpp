@@ -64,6 +64,7 @@ void cPlanningScreen::Run()
 
   if(mpButton->Pressed())
   {
+	  float lfPlayerStartingDistance = -_CAMERA->mpCameraPosition[2];
 	 _KILL_THIS();
 	 _KILL(mpButton);
 	mpButton=0;
@@ -89,7 +90,7 @@ void cPlanningScreen::Run()
 
 	_KILL(mpPlayerGun);
 
-	_CREATE(cCombatScreen(mpLeviathanSettings));
+	_CREATE(cCombatScreen(mpLeviathanSettings,lfPlayerStartingDistance));
   }
 
   if(KEY_BACKSPACE)

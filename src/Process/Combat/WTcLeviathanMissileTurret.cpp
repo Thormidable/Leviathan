@@ -63,9 +63,9 @@ void cLeviathanMissileTurret::Run()
       //If the guns are not firing this time step, continue to reload.
       if(mpReactor)
       {
-        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfReloadState-=mfReloadRate;
+        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfReloadState-=mfReloadRate*_TIME_PER_FRAME;
       }
-      else{ mfReloadState-=mfReloadRate;}
+      else{ mfReloadState-=mfReloadRate*_TIME_PER_FRAME;}
     }
 
 }
@@ -101,7 +101,7 @@ bool cLeviathanMissileTurret::UserSignal(SIGNAL lsSignal,void *lpData)
 
 void cLeviathanMissileTurret::ReduceHealth()
 {
-    mfHealth-=cDamage::mfFinalDamage;
+    mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
     //If the damage is more than the fighter can take kill it.
     //This will call Stop()
     if(mfHealth<0.0f)

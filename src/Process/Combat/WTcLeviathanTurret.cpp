@@ -29,12 +29,12 @@
   bool cLeviathanTurret::TrackPoint(float *lpPoint)
   {
      bool lbTracking=true;
-     float lfAngles=ClampValue(mpHull->GetListItem(0)->mmCache.YawToPoint(lpPoint),mfTrackSpeed);
+     float lfAngles=ClampValue(mpHull->GetListItem(0)->mmCache.YawToPoint(lpPoint),mfTrackSpeed*_TIME_PER_FRAME);
      float lfTotAngle=LoopingValue(mpHull->GetListItem(0)->Yaw()+lfAngles,3.14159265f);
      if(lfTotAngle>mfLowYaw && lfTotAngle<mfHighYaw) mpHull->GetListItem(0)->RotateY(lfAngles);
      else lbTracking=false;
 
-     lfAngles=ClampValue(mpHull->GetListItem(1)->mmCache.PitchToPoint(lpPoint),mfTrackSpeed);
+     lfAngles=ClampValue(mpHull->GetListItem(1)->mmCache.PitchToPoint(lpPoint),mfTrackSpeed*_TIME_PER_FRAME);
      lfTotAngle=LoopingValue(mpHull->GetListItem(1)->Pitch()-lfAngles,3.14159265f);
      if(lfTotAngle>mfLowPitch && lfTotAngle<mfHighPitch) mpHull->GetListItem(1)->RotateX(lfAngles);
      else lbTracking=false;
@@ -43,12 +43,12 @@
   bool cLeviathanTurret::TrackVector(float *lpVector)
   {
      bool lbTracking=true;
-     float lfAngles=ClampValue(mpHull->GetListItem(0)->mmCache.YawToVector(lpVector),mfTrackSpeed);
+     float lfAngles=ClampValue(mpHull->GetListItem(0)->mmCache.YawToVector(lpVector),mfTrackSpeed*_TIME_PER_FRAME);
      float lfTotAngle=LoopingValue(mpHull->GetListItem(0)->Yaw()+lfAngles,3.14159265f);
      if(lfTotAngle>mfLowYaw && lfTotAngle<mfHighYaw) mpHull->GetListItem(0)->RotateY(lfAngles);
      else lbTracking=false;
 
-     lfAngles=ClampValue(mpHull->GetListItem(1)->mmCache.PitchToVector(lpVector),mfTrackSpeed);
+     lfAngles=ClampValue(mpHull->GetListItem(1)->mmCache.PitchToVector(lpVector),mfTrackSpeed*_TIME_PER_FRAME);
      lfTotAngle=LoopingValue(mpHull->GetListItem(1)->Pitch()-lfAngles,3.14159265f);
      if(lfTotAngle>mfLowPitch && lfTotAngle<mfHighPitch) mpHull->GetListItem(1)->RotateX(lfAngles);
      else lbTracking=false;

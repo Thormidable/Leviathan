@@ -38,7 +38,7 @@ void cLeviathanReactor::Run()
 	cLeviathanComponent::Run();
 
     mfGenerated=0.0f;
-    mfTemp+=mfBaseHeat*mfHeatFactor;
+    mfTemp+=mfBaseHeat*mfHeatFactor*_TIME_PER_FRAME;
     if(mfTemp<0.0f)
     {
         mfTemp=0.0f;
@@ -62,13 +62,14 @@ void cLeviathanReactor::Stop()
 
 void cLeviathanReactor::ForceGenerateEnergy(float lfEnergy)
 {
+	lfEnergy*=_TIME_PER_FRAME;
     mfTemp+=lfEnergy*mfHeatFactor;
     mfGenerated+=lfEnergy;
 }
 
 bool cLeviathanReactor::GenerateEnergy(float lfEnergy)
 {
-
+	lfEnergy *=_TIME_PER_FRAME;
     if(mfGenerated+lfEnergy<mfMaxPowerGeneration)
     {
             mfTemp+=lfEnergy*mfHeatFactor;
@@ -80,7 +81,7 @@ bool cLeviathanReactor::GenerateEnergy(float lfEnergy)
 
 void cLeviathanReactor::Cool(float lfCooling)
 {
-    mfTemp-=lfCooling;
+    mfTemp-=lfCooling*_TIME_PER_FRAME;
 }
 
 float cLeviathanReactor::ReactorTemp()
@@ -117,7 +118,7 @@ bool cLeviathanReactor::UserSignal(SIGNAL lsSignal,void *lpData)
 
 void cLeviathanReactor::ReduceHealth()
 {
-            mfHealth-=cDamage::mfFinalDamage;
+            mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
             mfHeatFactor=1.0f+mfDamageHeatFactor*(1.0f-mfHealth*mfMaxHealthInv);
 
             //If the damage is more than the fighter can take kill it.

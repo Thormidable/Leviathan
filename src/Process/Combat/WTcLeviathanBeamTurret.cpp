@@ -84,7 +84,7 @@ void cLeviathanBeamTurret::Run()
     {
         if(mpReactor->GenerateEnergy(mfEnergyCost)) mfCharge+=mfChargeChange;
     }
-    else{ mfCharge+=mfChargeChange;}
+    else{ mfCharge+=mfChargeChange*_TIME_PER_FRAME;}
 
 if(mpBeam->Awake())
 {
@@ -119,7 +119,7 @@ if(mpBeam->Awake())
                 delete lpList;
 
         }
-        else{ mfDelayTimer-=0.04f; }
+        else{ mfDelayTimer-=0.4f*_TIME_PER_FRAME; }
     }
 }
 };

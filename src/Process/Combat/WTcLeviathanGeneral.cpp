@@ -106,7 +106,7 @@ void cLeviathanDamage::Stop()
 
 
 
-cMomentum *cLeviathanComponent::Momentum(){return mpMoment;};
+cMomentumFRI *cLeviathanComponent::Momentum(){return mpMoment;};
 
 cLeviathanComponent::cLeviathanComponent(cLeviathanComponentSettings *lpSettings) : cFoundationTracking(lpSettings->mpFoundations)
 {
@@ -242,7 +242,7 @@ bool cLeviathanComponent::UserSignal(SIGNAL lsSignal,void *lpData)
             {
 
                 if(lpData) mpComponentNode->Equals(mpComponentNode->mmCache);
-                 mpMoment=_CREATE(cMomentum(&(mpComponentNode->ThisMatrix())));
+                 mpMoment=_CREATE(cMomentumFRI(&(mpComponentNode->ThisMatrix())));
                 if(lsSignal==LEVIATHAN_REACTOR_DEATH) mpDamage=_CREATE(cLeviathanDamage(this,10.0f));
                  if(mpTreeBase)
                  {

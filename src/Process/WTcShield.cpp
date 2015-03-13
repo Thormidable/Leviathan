@@ -119,7 +119,7 @@ void cShield::Run()
 	//mpShield->Equals(mpGenerator->mmCache.Matrix());
 
     //If the Shield is damaged recharge it.
-    if(mfHealth<mfMax) mfHealth+=mfRecharge;
+    if(mfHealth<mfMax) mfHealth+=mfRecharge*_TIME_PER_FRAME;
 
     //If the shield is destroyed, sleep it. Otherwise Wake it.
     //Sleeping it will stop it being visible and stop it colliding with other objects.

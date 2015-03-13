@@ -20,7 +20,7 @@ cChaffCharge *cMissile::spChaffDeployed=0;
      mpHullColl->CollisionFilter(MISSILE_FILTER);
      mpHullColl->SetTypeRay(mpHull,3.0f);
 
-     mpMomentum=_CREATE(cMomentum(mpHull));
+     mpMomentum=_CREATE(cMomentumFRI(mpHull));
      if(mpSettings->mpMomentumBase) mpMomentum->Equals(mpSettings->mpMomentumBase);
 
      mpTarget=mpSettings->mpTarget;
@@ -356,7 +356,7 @@ void cEMPMissile::Detonate()
         float lfTemp=RANDOM_NUMBER;
         mpCharge->SetUniform("CoronaValue",&lfTemp);
         //mpCharge->SetUniform("CoronaValue",&lfTemp);
-        mpCharge->GAdvance(mvSpeed.v);
+        mpCharge->GAdvance((mvSpeed*_TIME_PER_FRAME).v);
         if(mfDelay<CHAFF_DELAY_ACTIVATE)
         {
          if(mfDelay>0.0f)
@@ -382,7 +382,7 @@ void cEMPMissile::Detonate()
             return;
          }
         }
-        mfDelay-=0.04f;
+        mfDelay-=0.4f*_TIME_PER_FRAME;
     };
 
     void cChaffCharge::Stop()

@@ -58,7 +58,7 @@ void cLeviathanVent::Open()
 {
     if(miState!=2)
     {
-        mpVent->RotateX(mfOpenAngle);
+        mpVent->RotateX(mfOpenAngle*_TIME_PER_FRAME);
         miState=2;
         mpArmour=&mcOpenArmour;
     }
@@ -69,7 +69,7 @@ void cLeviathanVent::Close()
 {
      if(miState)
     {
-        mpVent->RotateX(-mfOpenAngle);
+        mpVent->RotateX(-mfOpenAngle*_TIME_PER_FRAME);
         miState=0;
         mpArmour=mpClosedArmour;
     }
@@ -90,7 +90,7 @@ void cLeviathanVent::Run()
 	    lfReactTemp*=lfReactTemp*lfReactTemp;
 	    if(RANDOM_NUMBER<lfReactTemp) Open();
 	    else if(lfReactTemp>RANDOM_NUMBER) Close();
-	    mpReactor->Cool(Cooling());
+	    mpReactor->Cool(Cooling()*_TIME_PER_FRAME);
 	}
 };
 

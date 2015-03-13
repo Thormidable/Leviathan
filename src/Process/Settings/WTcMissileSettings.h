@@ -14,14 +14,14 @@ class cChaffSettings : public vMissileSettings
 {
 
 public:
-    cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSpread,float lfSize,float lfDelay,cRGBA lcColor,cMomentum *lpCurSpeed);
+    cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSpread,float lfSize,float lfDelay,cRGBA lcColor,cMomentumFRI *lpCurSpeed);
     cMatrix4 *mpSource;
     uint16 miCharges;
     float mfSpreadRate;
     float mfChargeSize;
     float mfChargeDelay;
     cRGBA mcFlareColor;
-    cMomentum *mpCurSpeed;
+    cMomentumFRI *mpCurSpeed;
     float DetonationDamage(){return 0.0f;};
 
     uint8 Type(){return MISSILE_TYPE_CHAFF;};
@@ -33,7 +33,7 @@ class cMissileSettings : public vMissileSettings
     public:
  cMatrix4 *mpMatrix;
  cMesh *mpMesh;
- cMomentum *mpMomentumBase;
+ cMomentumFRI *mpMomentumBase;
  cTexture *mpTexture;
  c3DVf mfOffset;
  uint16 miFilter;
@@ -48,7 +48,7 @@ class cMissileSettings : public vMissileSettings
 
   float DetonationSize();
   float DetonationDamage();
-  cMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase);
+  cMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase);
   cMissileSettings(cMissileSettings *lpOther);
 
 };
@@ -58,7 +58,7 @@ class cExplosiveMissileSettings : public cMissileSettings
 
 public:
     cExplosiveMissileSettings(cMissileSettings *lpSettings,float lfExplosionSize,cDamage lfExplosionDamage);
-    cExplosiveMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage);
+    cExplosiveMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage);
 
     uint8 Type(){return MISSILE_TYPE_EXPLOSIVE;};
     string TypeString(){return "Explosive";};
@@ -68,7 +68,7 @@ class cLaserMissileSettings : public cMissileSettings
 {
   public:
   cLaserMissileSettings(cMissileSettings *lpSettings,float lfLaserLength,cDamage lfLaserDamage);
-  cLaserMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage);
+  cLaserMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage);
 
   uint8 Type(){return MISSILE_TYPE_LASER;};
   string TypeString(){return "Laser";};
@@ -78,7 +78,7 @@ class cEMPMissileSettings : public cMissileSettings
 {
   public:
    cEMPMissileSettings(cMissileSettings *lpSettings,float lfEMPSize);
-   cEMPMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfEMPSize);
+   cEMPMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfEMPSize);
 
    float DetonationDamage();
 
@@ -91,7 +91,7 @@ class cMWMissileSettings : public cMissileSettings
 {
   public:
         cMWMissileSettings(cMissileSettings *lpSettings,uint8 liMunitions,float lfSpread,cMissileSettings *lpMunitionSettings);
-        cMWMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,uint8 liMunitions,float lfSpread,cMissileSettings *lpMunitionSettings);
+        cMWMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,uint8 liMunitions,float lfSpread,cMissileSettings *lpMunitionSettings);
 
         uint8 miMunitions;
         float mfSpread;

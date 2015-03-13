@@ -1,7 +1,7 @@
 
 #include "../../main.h"
 
-cChaffSettings::cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSpread,float lfSize,float lfDelay,cRGBA lcColor,cMomentum *lpCurSpeed)
+cChaffSettings::cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSpread,float lfSize,float lfDelay,cRGBA lcColor,cMomentumFRI *lpCurSpeed)
 {
     mpSource=lpSource;
     miCharges=liCharges;
@@ -12,7 +12,7 @@ cChaffSettings::cChaffSettings(cMatrix4 *lpSource,uint16 liCharges,float lfSprea
     mpCurSpeed=lpCurSpeed;
 };
 
-cMissileSettings::cMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase)
+cMissileSettings::cMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase)
 {
      mpMatrix=lpMatrix;
      mpMesh=_GET_MESH_FILE(lsMesh.c_str());
@@ -55,7 +55,7 @@ cExplosiveMissileSettings::cExplosiveMissileSettings(cMissileSettings *lpSetting
     mfSize=lfExplosionSize;
     mcDamage=lfExplosionDamage;
 };
-cExplosiveMissileSettings::cExplosiveMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage) : cMissileSettings(
+cExplosiveMissileSettings::cExplosiveMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfExplosionSize,cDamage lfExplosionDamage) : cMissileSettings(
     lpMatrix,lsMesh,lsTexture,lfOffset,lpTarget,liFilter,lfThrust,lfSideThrust,lfTrack,lfThrustLimit,lfHealth,lfDetonationDistance,lpMomentumBase)
 {
     mfSize=lfExplosionSize;
@@ -67,7 +67,7 @@ cLaserMissileSettings::cLaserMissileSettings(cMissileSettings *lpSettings,float 
     mfSize=lfLaserLength;
     mcDamage=lfLaserDamage;
 };
-cLaserMissileSettings::cLaserMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfLaserLength,cDamage lfLaserDamage) : cMissileSettings(
+cLaserMissileSettings::cLaserMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfLaserLength,cDamage lfLaserDamage) : cMissileSettings(
     lpMatrix,lsMesh,lsTexture,lfOffset,lpTarget,liFilter,lfThrust,lfSideThrust,lfTrack,lfThrustLimit,lfHealth,lfDetonationDistance,lpMomentumBase)
 {
     mfSize=lfLaserLength;
@@ -79,7 +79,7 @@ cEMPMissileSettings::cEMPMissileSettings(cMissileSettings *lpSettings,float lfEM
     mfSize=lfEMPSize;
     mcDamage.mfDamage=0.0f;
 };
-cEMPMissileSettings::cEMPMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,float lfEMPSize) : cMissileSettings(
+cEMPMissileSettings::cEMPMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,float lfEMPSize) : cMissileSettings(
     lpMatrix,lsMesh,lsTexture,lfOffset,lpTarget,liFilter,lfThrust,lfSideThrust,lfTrack,lfThrustLimit,lfHealth,lfDetonationDistance,lpMomentumBase)
 {
     mfSize=lfEMPSize;
@@ -92,7 +92,7 @@ cMWMissileSettings::cMWMissileSettings(cMissileSettings *lpSettings,uint8 liMuni
     miMunitions=liMunitions;
     mpMunitionSettings=lpMunitionSettings;
 };
-cMWMissileSettings::cMWMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentum *lpMomentumBase,uint8 liMunitions,float lfSpread,cMissileSettings *lpMunitionSettings) :
+cMWMissileSettings::cMWMissileSettings(cMatrix4 *lpMatrix,string lsMesh, string lsTexture,c3DVf lfOffset,cGameTarget lpTarget,uint16 liFilter,float lfThrust,float lfSideThrust,float lfTrack,float lfThrustLimit,float lfHealth,float lfDetonationDistance,cMomentumFRI *lpMomentumBase,uint8 liMunitions,float lfSpread,cMissileSettings *lpMunitionSettings) :
 cMissileSettings(lpMatrix,lsMesh,lsTexture,lfOffset,lpTarget,liFilter,lfThrust,lfSideThrust,lfTrack,lfThrustLimit,lfHealth,lfDetonationDistance,lpMomentumBase)
 {
     mfSpread=lfSpread;

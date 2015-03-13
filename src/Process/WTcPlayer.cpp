@@ -11,11 +11,11 @@ vMissileSettings **cPlayer::mpMissileSettings=0;
     cRGBA(0.0f,0.0f,0.0f,1.0f)};*/
 
 cMatrix4 cPlayer::HullMatrix;
-cMomentum *cPlayer::lpMomentum=0;
+cMomentumFRI *cPlayer::lpMomentum=0;
 
 cPlayer *gpPlayer=0;
 
-cPlayer::cPlayer(cCamera *lpCamera)
+cPlayer::cPlayer(cCamera *lpCamera,float lfDistance)
 {
 
 
@@ -36,7 +36,7 @@ cPlayer::cPlayer(cCamera *lpCamera)
 	mpHull->Shader("TexturingProgram");
 	mpHull->Mesh("PlayerShip");
 	mpHull->AddTexture("PlayerShipTexture");
-	mpHull->Advance(0.0f,0.0f,8000.0f);
+	mpHull->Advance(0.0f,0.0f,lfDistance);
 	mpHull->RotateY(WT_PI);
 
 	mcPlayerTarget.SetTarget(mpHull);
@@ -110,7 +110,7 @@ cPlayer::cPlayer(cCamera *lpCamera)
 
     //Create an Instance of a cMomentum object to track the momentum of the ship.
     //This is 6 axis momentum - X,Y,Z and X Rotation, Y Rotation and Z Rotation.
-	lpMomentum=_CREATE(cMomentum(mpHull));
+	lpMomentum=_CREATE(cMomentumFRI(mpHull));
 
 
 
@@ -536,11 +536,11 @@ void cPlayer::Run()
      }
 
 
-	if(mfMissileReload>0.0f) mfMissileReload-=0.04f;
+	if(mfMissileReload>0.0f) mfMissileReload-=0.4f*_TIME_PER_FRAME;
 
     if(mfRackDisplayTimer>=0.0f)
     {
-        mfRackDisplayTimer-=0.04f;
+        mfRackDisplayTimer-=0.4f*_TIME_PER_FRAME;
         if(mfRackDisplayTimer<=0.0f)
         {
             _SLEEP(mpMissileRack);
@@ -563,7 +563,7 @@ if(!cUserSettings::mbKeyThrustControl)
 	if(THRUST_CHANGE_INPUT)
 	{
 	    //If the Thrust input is true then Mouse movements will update the ships thrust.
-		mfThrust-=_MOUSE->YSpeed()*cUserSettings::mfMouseThrustSensitivity*0.1;
+		mfThrust-=_MOUSE->YSpeed()*cUserSettings::mfMouseThrustSensitivity*_TIME_PER_FRAME;
 
 		//Limit the ships thrust to the defined thrust range
 		mfThrust=ClampValueRange(mfThrust,0.0f,THRUST_LIMIT);
@@ -766,7 +766,7 @@ else
     //Then rotate this vector based on the ships facing.
     //Finally Set the dial to face in the direction the ship is moving.
     c3DVf lfMomentumVector=c3DVf(lpMomentum->GMomentumVector());
-    lfMomentumVector=mpHull->RotateVectorByAngles(lfMomentumVector);
+    lfMomentumVector=mpHull->RotateVectorByAngles(lfMomentumVector*_TIME_PER_FRAME);
 	lpZDisp->LookVector(lfMomentumVector);
 
 	//Set the color for the Movement direction dial. Green if forwards. Red if backwards.
@@ -874,7 +874,7 @@ else
             if(lpProc)
             {
                 mcBeamDamage.mfPos=lpList->CurrentCollisionDetail()->Centre();
-                mcBeamDamage.mfDamage=mcBeamColor.A()*BEAM_DAMAGE_MULTIPLIER;
+                mcBeamDamage.mfDamage=mcBeamColor.A()*BEAM_DAMAGE_MULTIPLIER*_TIME_PER_FRAME;
                 gpRenderCollision=dynamic_cast<cRenderObject*>(lpList->CurrentCollisionR());
                 lpProc->UserSignal(BEAM_COLLISION,&mcBeamDamage);
                 if(!dynamic_cast<cShield*>(lpProc))
@@ -926,8 +926,8 @@ else
         //Create two bullets. Give them offset values.
         //see WTcBullet.h and WTcBullet.cpp
         //No more needs to be done, the bullets will handle themselves after this.
-         _CREATE(cBullet(mpHull,c3DVf(3.0f,0.0f,0.0f),PLAYER_BULLET_SPEED,&mcBulletDamage,PLAYER_BULLET_FILTER,ENEMY_SHIP_FILTER));
-         _CREATE(cBullet(mpHull,c3DVf(-3.0f,0.0f,0.0f),PLAYER_BULLET_SPEED,&mcBulletDamage,PLAYER_BULLET_FILTER,ENEMY_SHIP_FILTER));
+         _CREATE(cBullet(mpHull,c3DVf(0.5f,0.0f,0.0f),PLAYER_BULLET_SPEED,&mcBulletDamage,0,ENEMY_SHIP_FILTER));
+         _CREATE(cBullet(mpHull,c3DVf(-0.5f,0.0f,0.0f),PLAYER_BULLET_SPEED,&mcBulletDamage,0,ENEMY_SHIP_FILTER));
         if(gbSoundOn)
 		{
              mpGunShotSound->Gain(0.1*RANDOM_NUMBER+0.9f);
@@ -939,7 +939,7 @@ else
          lpMomentum->ThrustZ(-BULLET_THRUST);
     }
     //Update the reload counter to continue reloading the guns/
-    mfReload-=0.04;
+    mfReload-=_TIME_PER_FRAME;
 
 
     HullMatrix.Equals(mpHull->ThisMatrix());

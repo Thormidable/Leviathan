@@ -28,7 +28,7 @@ void cLeviathanTractorBeam::Run()
         if(InRange(mpBeam->Length()))
         {
             _WAKE(mpBeam);
-            mfChargeChange=-mfDischargeRate;
+            mfChargeChange=-mfDischargeRate*_TIME_PER_FRAME;
             mfDelayTimer=mfFireDelay;
             cRGBA lcTemp(1.0f,1.0f,1.0f,0.2f);
             mpBeam->SetVariable("ModelColor",lcTemp.Color());
@@ -40,7 +40,7 @@ void cLeviathanTractorBeam::Run()
         if(mfCharge<0.0f)
         {
           _SLEEP(mpBeam);
-          mfChargeChange=+mfRechargeRate;
+          mfChargeChange=+mfRechargeRate*_TIME_PER_FRAME;
         }
 
     }
@@ -48,9 +48,9 @@ void cLeviathanTractorBeam::Run()
 
 if(mpReactor && mfChargeChange>0.0f)
     {
-        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfCharge+=mfChargeChange;
+        if(mpReactor->GenerateEnergy(mfEnergyCost)) mfCharge+=mfChargeChange*_TIME_PER_FRAME;
     }
-    else{ mfCharge+=mfChargeChange;}
+    else{ mfCharge+=mfChargeChange*_TIME_PER_FRAME;}
 
 
 cLeviathanComponent::Run();
@@ -76,7 +76,7 @@ if(mpBeam->Awake())
         //delete the cCollisionList created earlier.
         delete lpList;
     }
-    else {mfDelayTimer-=0.04f;};
+    else {mfDelayTimer-=0.4f*_TIME_PER_FRAME;};
 
 }
 

@@ -78,7 +78,7 @@ bool cLeviathanShield::UserSignal(SIGNAL lsSignal,void *lpData)
          bool *lbState=(bool*)lpData;
             if(!*lbState)
             {
-                mpShield->Max(-1.0f);
+                mpShield->Max(-1.0f*_TIME_PER_FRAME);
             }
             return 1;
         }
@@ -93,7 +93,7 @@ bool cLeviathanShield::UserSignal(SIGNAL lsSignal,void *lpData)
 
 void cLeviathanShield::ReduceHealth()
 {
-    mfHealth-=cDamage::mfFinalDamage;
+    mfHealth-=cDamage::mfFinalDamage*_TIME_PER_FRAME;
     //If the damage is more than the fighter can take kill it.
     //This will call Stop()
     mpShield->Max(mfHealth*mfMaxHealthInv);
